@@ -1,15 +1,15 @@
-      <div class="navbar hide-this navbar-fixed-top navbar-inverse">
-        <div class="navbar-header hide-this">
-          <button type="button" class="navbar-toggle hide-this" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
+      <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
         <a class="navbar-brand" href="/">TrackMyMixes<span class="fa fa-volume-up fa-lg"></span></a>
       </div>
-      <div class="navbar-offcanvas offcanvas navmenu-fixed-left pull-right hide-this">
-        <a class="navmenu-brand hide-this" href="/">TrackMyMixes</a>
-          <ul class="nav navbar-nav hide-this">
+      <div class="navbar-offcanvas offcanvas navmenu-fixed-left pull-right">
+        <a class="navmenu-brand" href="/">TrackMyMixes</a>
+          <ul class="nav navbar-nav">
             <%= nav_link "Home",    root_path %>
             <%= nav_link "About",    about_path %>
             <%= nav_link "Contact",    contact_path %>

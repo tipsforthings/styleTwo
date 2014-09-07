@@ -1,0 +1,23 @@
+ <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#">
+<meta property="fb:profile_id" content="https://www.facebook.com/djalexscott" /> 
+<meta property="og:type"   content="profile" /> 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta property="og:title" content="My Online Profile & Portfolio" />
+<meta property="og:site_name" content="ALXS" />
+<meta property="og:image" content="http://alxs.co.uk/assets/alxs.jpg" />
+<meta property="og:url" content="http://alxs.co.uk" <link rel="author" href="https://plus.google.com/u/0/116471654573031381012/about"/>
+<meta property="og:description" content="Everything about ALXS, including my background, portfolio and services that I can offer." />
+<meta property="og:image:width" content="1350" />
+<meta property="og:image:height" content="608" /><title><%= full_title(yield(:title)) %></title>
+<%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+<%= csrf_meta_tags %>
+<%= render 'layouts/shim' %>
+<link href="/assets/sticky-footer.css" rel="stylesheet">
+<link href="/assets/custom.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lobster+Two:400italic,700' rel='stylesheet' type='text/css'>
+ </head>
+

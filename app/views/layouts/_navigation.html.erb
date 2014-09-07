@@ -1,0 +1,19 @@
+      <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="/">TrackMyMixes<span class="fa fa-volume-up fa-lg"></span></a>
+      </div>
+      <div class="navbar-offcanvas offcanvas navmenu-fixed-left pull-right">
+        <a class="navmenu-brand" href="/">TrackMyMixes</a>
+          <ul class="nav navbar-nav">
+            <%= nav_link "Home",    root_path %>
+            <%= nav_link "About",    about_path %>
+            <%= nav_link "Contact",    contact_path %>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+

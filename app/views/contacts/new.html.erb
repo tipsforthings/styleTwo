@@ -1,22 +1,36 @@
 <% provide(:title, 'Contact Me') %>
-<div class="row">
-  <div class="col-md-3"></div>
-  <div class="col-md-6">
-<h2 class="three-em">Send me a message</h2>
-
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :number, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+<% provide(:ogdesc, 'TrackMyMixes, taking your music to the next level.') %>
+<% content_for :fullwidth do %>
+<% end %>
+<% content_for :description do %>My Description
+<% end %>
+<div id="startchange" class="container-fluid home">
+  <%= render 'layouts/navigation' %>
+  <div class="padder-80">
+  <div class="row">
+    <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <h2 class="three-em">
+          Send me a message
+        </h2>
+          <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+          <%= f.input :name, :required => true %>
+          <%= f.input :email, :required => true %>
+          <%= f.input :number, :required => true %>
+          <%= f.input :message, :as => :text, :required => true %>
+        <div class= "hidden">
+          <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+        </div>
+        <div>
+          </br>
+          <%= f.button :submit, 'Send message', :class=> "btn btn-primary contact-button" %>
+        </div>
+      <% end %>
     </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary contact-button" %>
+    <div class="col-md-3">
     </div>
-  <% end %>
   </div>
-  <div class="col-md-3"></div>
+  </div>
 </div>
+<%= render 'layouts/social' %>
+<%= render 'layouts/footer' %>

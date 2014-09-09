@@ -14,19 +14,19 @@ bottom: 0;
 width: 100%;
 /* Set the fixed height of the footer here */
 height: 60px;
-background-color: rgba(51, 51, 51, 0.9);
+background-color: rgba(236, 236, 236, 0.9);
 }
 /* footer */
 .footer {
 margin-top: 45px;
 padding-top: 20px;
-border-top: 1px solid rgba(255, 102, 0, 1.0);
+border-top: 1px solid rgba(255, 255, 255, 1.0);
 color: #999;
 position: fixed !important;
 bottom: 0 !important;
 }
 .footer a {
-color: rgba(255, 102, 0, 1.0);
+color: rgba(255, 255, 255, 1.0);
 }
 .footer a:hover {
 color: #fff;
@@ -34,7 +34,7 @@ text-decoration: none;
 }
 .footer small {
 float: left;
-color: rgba(255, 102, 0, 1.0);
+color: rgba(255, 255, 255, 1.0);
 }
 .footer ul {
 float: right;

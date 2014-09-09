@@ -1,2 +1,12 @@
 <% provide(:title, 'About') %>
+<% provide(:ogdesc, 'TrackMyMixes, taking your music to the next level.') %>
+<% content_for :fullwidth do %>
+<% end %>
+<% content_for :description do %>My Description
+<% end %>
+<div id="startchange" class="container container-main">
+  <%= render 'layouts/navigation' %>
+</div>
+<%= render 'layouts/social' %>
+<%= render 'layouts/footer' %>
 

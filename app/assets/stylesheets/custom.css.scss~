@@ -1,9 +1,13 @@
 $lightGray: #999;
-
 body {
-  padding-top: 80px;
+  padding-top: 0px;
   padding-bottom: 20px !important;
   font-family: Arial,Helvetica,sans-serif;
+background-attachment: scroll, fixed;
+background-color: rgb(0, 0, 0);
+background-position: left top, center center;
+background-repeat: repeat, no-repeat;
+background-size: auto auto, cover;
 }
 
 @media (min-width: 992px) {
@@ -11,13 +15,24 @@ body {
     padding-right: 15px;
   }
 }
+.padder-80 {
+  margin-top: 78px;
+}
+abbr[title], abbr[data-original-title] {
+    cursor: help;
+    border-bottom: 0px dotted rgb(153, 153, 153);
+}
+.home {
+color: rgb(255, 255, 255);
+padding-top: 0px;
+}
 /* universal */
 .navbar-inverse .navbar-nav > li > a {
     border: 1px solid rgba(255, 102, 0, 1.0) !important;
     border-radius: 6px;
     padding: 10px;
     margin: 10px;
-    color: rgba(255, 102, 0, 1.0);
+    color: rgba(255, 255, 255, 1.0);
 }
 .navbar-inverse .navbar-nav > li > a:hover {
     color: rgb(51,51,51) !important;
@@ -33,9 +48,6 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  padding-top: 60px;
-}
 
 section {
   overflow: auto;
@@ -78,7 +90,7 @@ h1 {
 }
 
 .contact-button {
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 p {
   font-size: 1.1em;
@@ -97,7 +109,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.5em;
-  color: rgba(255, 102, 0, 1.0) !important;
+  color: rgba(255, 255, 255, 1.0) !important;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 5px;
@@ -113,18 +125,13 @@ p {
 }
 .navbar-color {
     background-color: rgba(51, 51, 51, 0.9) !important;
-    border-color: rgba(255, 102, 0, 1.0) !important;
+    border-color: rgba(255, 255, 255, 1.0) !important;
 
     -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 0.5s; /* Firefox < 16 */
         -ms-animation: fadein 0.5s; /* Internet Explorer */
          -o-animation: fadein 0.5s; /* Opera < 12.1 */
             animation: fadein 0.5s;
-    -webkit-animation: fadeout 0.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadeout 0.5s; /* Firefox < 16 */
-        -ms-animation: fadeout 0.5s; /* Internet Explorer */
-         -o-animation: fadeout 0.5s; /* Opera < 12.1 */
-            animation: fadeout 0.5s;
 }
 
 .hide-this {
@@ -159,35 +166,6 @@ p {
     to   { opacity: 1; }
 }
 
-@keyframes fadeout {
-    from { opacity: 1; }
-    to   { opacity: 0; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadeout {
-    from { opacity: 1; }
-    to   { opacity: 0; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadeout {
-    from { opacity: 1; }
-    to   { opacity: 0; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadeout {
-    from { opacity: 1; }
-    to   { opacity: 0; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadeout {
-    from { opacity: 1; }
-    to   { opacity: 0; }
-}
-
 
 .navbar-inverse .navbar-offcanvas {
     background-color: transparent !important;
@@ -210,7 +188,7 @@ h2.three-em {
   padding: 15px;
   font-size: 3em;
   font-weight: 500;
-  border: 1px solid rgb(51,51,51);
+  border: 2px solid rgb(255,102,0);
   border-radius: 6px;
 }
 h2 span {
@@ -252,12 +230,12 @@ p.three-em {
   color: rgba(255, 102, 0, 1.0);
   padding: 10px;
 }
-.container .jumbotron {
+.container-fluid .jumbotron {
     border-radius: 10px;
     padding: 20px;
-    border: 2px solid rgba(255, 102, 0, 1.0);
+    border: 2px solid rgba(255, 255, 255, 1.0);
     background-color: transparent;
-    margin-top: 20px;
+    margin-top: 120px;
     margin-bottom: 0px;
 }
 .right-align {
@@ -304,7 +282,7 @@ h4 {
   height: 90%;
   padding-bottom: 5px;
 }
-.container .row {
+.container-fluid .row {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
@@ -324,7 +302,7 @@ hr {
 }
 
 .dark-body {
-  background-color: rgba(236, 236, 236, .75);
+  background-color: rgba(0,0,0,1.0);
 }
 .navbar-inverse .navbar-offcanvas .navmenu-brand {
     color: rgba(255, 102, 0, 1.0);
@@ -366,13 +344,13 @@ label {
 }
 .btn-primary {
   background-color: rgba(255, 102, 0, 1.0);
-  color: rgb(51,51,51);
-  border: 1px solid rgb(51,51,51);
+  color: rgb(255,255,255);
+  border: 1px solid rgb(255,255,255);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-    color: rgba(255, 102, 0, 1.0);
+    color: rgba(255, 255, 255, 1.0);
     background-color: rgb(51,51,51);
-    border-color: rgba(255, 102, 0, 1.0);
+    border-color: rgba(255, 255, 255, 1.0);
 }
 .remove-border {
   border: 0px solid #ffffff !important;

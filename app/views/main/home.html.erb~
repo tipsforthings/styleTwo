@@ -1,13 +1,25 @@
-<% provide(:ogdesc, 'TrackMyMixes, taking you music to the next level.') %>
-<div class="center jumbotron ">
-<h1 class="three-em" style="font-family: 'Droid Sans',Arial,serif; font-weight: bold;">Track My Mixes</h1>
-
-</div>
-<div class="row">
-
+<% provide(:ogdesc, 'TrackMyMixes, taking your music to the next level.') %>
+<% content_for :fullwidth do %>
+<% end %>
+<% content_for :description do %>My Description
+<% end %>
+<div id="startchange" class="container-fluid home">
+  <%= render 'layouts/navigation' %>
+  <div class="center jumbotron ">
+    <h1 class="three-em droid" style="font-weight: bold; ">
+      Track My Mixes
+    </h1>
+  </div>
+  <div class="row">
     <div class="col-md-12">
-<div>
-        <h2 class="frontpage">Upload and be heard.</h2>
-</div>
+      <div>
+        <h2 class="frontpage" style="font-weight: bold;">
+          Upload and be heard.
+        </h2>
+      </div>
     </div>
+  </div>
 </div>
+<%= render 'layouts/social' %>
+<%= render 'layouts/footer' %>
+

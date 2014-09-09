@@ -8,13 +8,11 @@ $(document).ready (function () {
         if (scroll_start > offset.top)  {
             $('.navbar-inverse').addClass('navbar-color')
             $('.footer').addClass('footer-fade')
-            $('.footer').addClass('footer-view')
             $('.hide-this').addClass('hidden')
             $('.show-this').removeClass('hidden')
         }else {
             $('.navbar-inverse').removeClass('navbar-color')
             $('.footer').removeClass('footer-fade')
-            $('.footer').removeClass('footer-view')
             $('.hide-this').removeClass('hidden')
             $('.show-this').addClass('hidden')
         }

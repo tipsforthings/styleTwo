@@ -181,8 +181,8 @@ p {
     cursor: default;
 }
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-    color: rgb(255,255,255);
-    background-color: rgb(21,172,230);
+    color: rgb(21, 172, 230);
+    background-color: rgb(138, 138, 138);
     border-color: rgb(221, 221, 221);
 }
 .pagination > li > a, .pagination > li > span {

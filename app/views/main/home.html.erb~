@@ -5,17 +5,25 @@
 <% end %>
 <div id="startchange" class="container-fluid home">
   <%= render 'layouts/navigation' %>
+  <div class="row">
+    <div class="col-md-2">
+      <div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div>
   <div class="center jumbotron ">
-    <h1 class="three-em droid" style="font-weight: bold; ">
+    <h1 class="three-em" style="font-weight: bold; ">
       Track My Mixes
     </h1>
   </div>
-  <div class="row">
-    <div class="col-md-12">
-      <div>
         <h2 class="frontpage" style="font-weight: bold;">
           Upload and be heard.
         </h2>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div>
       </div>
     </div>
   </div>

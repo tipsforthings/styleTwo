@@ -21,16 +21,23 @@
         <div class= "hidden">
           <%= f.input :nickname, :hint => 'Leave this field blank!' %>
         </div>
-        <div>
-          </br>
-          <%= f.button :submit, 'Send message', :class=> "btn btn-primary contact-button" %>
-        </div>
-      <% end %>
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+        <br />
+        <%= f.button :submit, 'Send message', :class=> "btn btn-primary contact-button" %>
+    </div>
+    <div class="col-md-4">
+    </div>
+
     </div>
     <div class="col-md-3">
     </div>
+
   </div>
+
   </div>
 </div>
+      <% end %>
 <%= render 'layouts/social' %>
 <%= render 'layouts/footer' %>

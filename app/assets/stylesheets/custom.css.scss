@@ -6,8 +6,8 @@ body {
 background-attachment: scroll, fixed;
 background-color: rgb(0, 0, 0);
 background-position: left top, center center;
-background-repeat: repeat, no-repeat;
-background-size: auto auto, cover;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 @media (min-width: 992px) {
@@ -43,7 +43,9 @@ padding-top: 0px;
 .navbar-inverse .navbar-nav > li:hover {
     background-color: transparent;
 }
-
+.navbar-color:hover {
+  opacity: 1.0
+}
 html {
   overflow-y: scroll;
 }
@@ -281,7 +283,7 @@ p.three-em {
   color: rgb(21, 172, 230);
   padding: 10px;
 }
-.fa {
+.fa-volume-up {
   padding-left: 20px;
 }
 .container-fluid .jumbotron {
@@ -398,7 +400,7 @@ label {
   padding-bottom: 2px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-  background-color: rgb(21, 172, 230);
+  background-color: rgba(21, 172, 230, 0.6);
   color: rgb(255,255,255);
   border: 1px solid rgb(255,255,255);
 }

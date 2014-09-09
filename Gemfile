@@ -15,6 +15,7 @@ gem 'sqlite3', '1.3.8'
 gem 'bcrypt-ruby', '3.1.2'
 
 group :development, :test do
+  gem 'factory_girl_rails', '4.2.0'
   gem 'rspec-rails', '2.13.1'
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'

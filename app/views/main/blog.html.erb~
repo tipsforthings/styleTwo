@@ -1,4 +1,4 @@
-<% provide(:title, 'About') %>
+<% provide(:title, 'Blog') %>
 <% provide(:ogdesc, 'TrackMyMixes, taking your music to the next level.') %>
 <% content_for :fullwidth do %>
 <% end %>

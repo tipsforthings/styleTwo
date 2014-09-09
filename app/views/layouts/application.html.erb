@@ -6,11 +6,30 @@
 <html>
 <%= render 'layouts/header' %>
 <body class="dark-body loading">
+<div id="startchange" class="container-fluid home">
+  <%= render 'layouts/navigation' %>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-<%= content_for?(:fullwidth) ? yield(:fullwidth) : "" %>
 <%= yield %>
+  <div class="row">
+    <div class="col-md-2">
+      <div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div>
+        <%= debug(params) if Rails.env.development? %>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div>
+      </div>
+    </div>
+</div>
+</div>
+<%= render 'layouts/social' %>
+<%= render 'layouts/footer' %>
 <%= javascript_include_tag :application %>
 </body>
 </html>

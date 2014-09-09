@@ -7,12 +7,12 @@ $(document).ready (function () {
     scroll_start = $(this).scrollTop();
         if (scroll_start > offset.top)  {
             $('.navbar-inverse').addClass('navbar-color')
-            $('.footer').addClass('navbar-color')
+            $('.footer').addClass('footer-fade')
             $('.hide-this').addClass('hidden')
             $('.show-this').removeClass('hidden')
         }else {
             $('.navbar-inverse').removeClass('navbar-color')
-            $('.footer').removeClass('navbar-color')
+            $('.footer').removeClass('footer-fade')
             $('.hide-this').removeClass('hidden')
             $('.show-this').addClass('hidden')
         }

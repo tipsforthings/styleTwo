@@ -1,7 +1,8 @@
 Alxs::Application.routes.draw do
-  get "users/new"
   match '/contact',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]  
+  resources :users
+  match '/signup',  to: 'users#new',            via: 'get'
   match '/help', to: 'main#help', via: 'get'
   match '/about', to: 'main#about', via: 'get'
   match '/blog', to: 'main#blog', via: 'get'

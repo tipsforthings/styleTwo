@@ -14,8 +14,9 @@ bottom: 0;
 width: 100%;
 /* Set the fixed height of the footer here */
 height: 60px;
-background-color: rgba(236, 236, 236, 0.9);
+background-color: rgba(51,51,51, 1.0);
 }
+
 /* footer */
 .footer {
 margin-top: 45px;
@@ -27,6 +28,9 @@ bottom: 0 !important;
 }
 .footer a {
 color: rgb(21, 172, 230);
+}
+.footer.navbar-color a {
+color: rgb(255, 255, 255);
 }
 .footer a:hover {
 color: #fff;
@@ -44,4 +48,6 @@ list-style: none;
 float: left;
 margin-left: 10px;
 }
-
+.footer.navbar-color small {
+color: rgb(153, 153, 153) !important;
+}

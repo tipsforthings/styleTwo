@@ -1,2 +1,37 @@
-<% provide(:title, 'Sign up') %>
-<h1>Sign up</h1>
+<% provide(:title, 'Sign Up') %>
+<h1>Sign Up</h1>
+      <% flash.each do |key, value| %>
+        <div class="alert alert-<%= key %>"><%= value %></div>
+      <% end %>
+
+<div class="row">
+    <%= form_for(@user) do |f| %>
+  <div class="col-md-3">
+  </div>
+  <div class="col-md-6">
+      <%= render 'shared/error_messages' %>
+
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation %>
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+        <br />
+      <%= f.submit "Create my account", class: "btn btn-large btn-primary contact-button" %>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+  <div class="col-md-3">
+  </div>
+    <% end %>
+</div>

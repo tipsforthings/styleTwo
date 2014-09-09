@@ -109,23 +109,44 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.5em;
-  color: rgba(255, 255, 255, 1.0) !important;
+  color: rgba(21, 172, 230, 1.0) !important;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 5px;
   line-height: 1;
   padding: 18px;
   &:hover {
+    -webkit-animation: navbrand 0.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: navbrand 0.5s; /* Firefox < 16 */
+        -ms-animation: navbrand 0.5s; /* Internet Explorer */
+         -o-animation: navbrand 0.5s; /* Opera < 12.1 */
+            animation: navbrand 0.5s;
     text-decoration: none;
   }
 }
+.navbar-color > .navbar-header > .navbar-brand:hover, 
+.navbar-color > .navbar-header > .navbar-brand:focus, 
+.navbar-color > .navbar-header > navbar-brand:active {
+  color: rgba(21, 172, 230, 1.0) !important;
+}
+.navbar-brand:hover, .navbar-brand:focus, navbar-brand:active {
+  color: rgba(153, 153, 153, 1.0) !important;
+}
+.navbar-color > .navbar-header > .navbar-brand {
+  color: rgba(153, 153, 153, 1.0) !important;
+}
 .navbar-inverse {
-    background-color: transparent;
-    border: 0px solid #fff !important;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgb(21, 172, 230) !important;
+}
+.navbar-color .navbar-inverse {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgb(21, 172, 230) !important;
 }
 .navbar-color {
     background-color: rgba(51, 51, 51, 0.9) !important;
     border-color: rgba(255, 255, 255, 1.0) !important;
+    opacity: 0.3;
 
     -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 0.5s; /* Firefox < 16 */
@@ -139,31 +160,61 @@ p {
 
 @keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.3; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.3; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.3; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.3; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 0.3; }
+}
+
+
+@keyframes navbrand {
+    from { color: rgba(255, 255, 255, 1.0) !important; }
+    to   { color: rgba(21, 172, 230, 1.0) !important; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes navbrand {
+    from { color: rgba(255, 255, 255, 1.0) !important; }
+    to   { color: rgba(21, 172, 230, 1.0) !important;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes navbrand {
+    from { color: rgba(255, 255, 255, 1.0) !important; }
+    to   { color: rgba(21, 172, 230, 1.0) !important; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes navbrand {
+    from { color: rgba(255, 255, 255, 1.0) !important; }
+    to   { color: rgba(21, 172, 230, 1.0) !important; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes navbrand {
+    from { color: rgba(255, 255, 255, 1.0) !important; }
+    to   { color: rgba(21, 172, 230, 1.0) !important; }
 }
 
 
@@ -229,6 +280,9 @@ p.three-em {
   font-weight: 400;
   color: rgb(21, 172, 230);
   padding: 10px;
+}
+.fa {
+  padding-left: 20px;
 }
 .container-fluid .jumbotron {
     border-radius: 10px;

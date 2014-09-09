@@ -18,10 +18,11 @@ describe "Authentication" do
       before { click_button "Sign In" }
 
       it { should have_title('Sign In') }
-      it { should have_selector('div.alert.alert-error', text: 'Invalid') }
+      it { should have_selector('div.alert.alert-error') }
 
       describe "after visiting another page" do
         before { click_link "Home" }
+        it { should_not have_selector('div.alert.alert-error') }
       end
     end
 
@@ -34,9 +35,8 @@ describe "Authentication" do
       end
 
       it { should have_title(user.name) }
-
-      it { should have_link('Profile',  href: user_path(user)) }
-      it { should have_link('Sign Out', href: signout_path) }
+      it { should have_link('Profile',     href: user_path(user)) }
+      it { should have_link('Sign Out',    href: signout_path) }
       it { should_not have_link('Sign In', href: signin_path) }
 
       describe "followed by signout" do
@@ -45,5 +45,4 @@ describe "Authentication" do
       end
     end
   end
-
 end

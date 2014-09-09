@@ -5,21 +5,34 @@
       <% end %>
 
 <%= form_for(:session, url: sessions_path) do |f| %>
-<div class="row">
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-6">
+  <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6">
       <%= f.label :email %>
       <%= f.text_field :email %>
 
       <%= f.label :password %>
       <%= f.password_field :password %>
         <br />
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <br />
       <%= f.submit "Sign In", class: "btn btn-lg btn-primary" %>
+      </div>
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8 center">
+        <br />
+      <p class="three-em">New user? <%= link_to "Sign up now!", signup_path %></p>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    <div class="col-md-3">
+    </div>
   </div>
-  <div class="col-md-3">
-  </div>
-</div>
 <% end %>
-    <p>New user? <%= link_to "Sign up now!", signup_path %></p>
-

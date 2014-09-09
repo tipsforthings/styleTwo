@@ -6,11 +6,16 @@
     </div>
     <div class="col-md-8">
       <div>
-  <div class="center jumbotron ">
-    <h1 class="three-em" style="font-weight: bold; ">
-      Track My Mixes
-    </h1>
-  </div>
+        <div class="center jumbotron ">
+          <h1 class="three-em" style="font-weight: bold; ">
+            Track My Mixes
+          </h1>
+        </div>
+<div class="center">
+<br />
+ <%= link_to "Sign Up!", '#',
+class: "btn btn-lg btn-primary contact-button" %>
+</div>
       </div>
     </div>
     <div class="col-md-2">

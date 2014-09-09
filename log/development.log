@@ -110559,3 +110559,1911 @@ Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 14:52:11 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2014-09-09 14:56:40 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ozi1kSEu2BmuAn3V8L4Pk7RfTIoPCrdGSzXc7FZv8BU=", "user"=>{"name"=>"Alex Scott", "email"=>"alex.scott@tipsforthings.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('alex.scott@tipsforthings.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (47.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 09 Sep 2014 13:56:40 UTC +00:00], ["email", "alex.scott@tipsforthings.com"], ["name", "Alex Scott"], ["password_digest", "$2a$10$gxoPYYJOoV49xvq1Wh/X3eP3yqGZfNeV7lsBrA1akszuCcsaq1vL2"], ["updated_at", Tue, 09 Sep 2014 13:56:40 UTC +00:00]]
+  [1m[35m (83.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 315ms (ActiveRecord: 132.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 14:56:41 +0100
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'alex.scott@tipsforthings.com' LIMIT 1[0m
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:03:46 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:43:26 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (273.6ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_social.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 1385ms (Views: 1352.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:43:27 +0100
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-09 15:43:28 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:44:57 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 15:44:57 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 15:44:57 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:44:58 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:13 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:14 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:14 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:14 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:14 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:14 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:14 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:14 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:14 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:45:43 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:14 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (6.4ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_social.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:17 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:31 +0100
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (3.1ms)
+  Rendered users/new.html.erb within layouts/application (77.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 117ms (Views: 96.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:33 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 15:46:35 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:36 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:36 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:36 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:36 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:36 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:36 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:36 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 15:46:36 +0100
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-09-09 16:08:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (44.2ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_social.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 464ms (Views: 432.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:08:54 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:08:55 +0100
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-09-09 16:10:42 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (45.8ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:43 +0100
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (3.3ms)
+  Rendered users/new.html.erb within layouts/application (18.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 35.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:10:49 +0100
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-09-09 16:11:45 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:45 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:45 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:45 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:45 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:45 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:45 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:45 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:46 +0100
+
+
+Started GET "/signip" for 127.0.0.1 at 2014-09-09 16:11:49 +0100
+
+ActionController::RoutingError (No route matches [GET] "/signip"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  jasny_bundle (2.1.0) lib/jasny_bundle/middleware.rb:29:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (45.8ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:11:52 +0100
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-09-09 16:11:54 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ozi1kSEu2BmuAn3V8L4Pk7RfTIoPCrdGSzXc7FZv8BU=", "session"=>{"email"=>"alex.scott@tipsforthings.com", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'alex.scott@tipsforthings.com' LIMIT 1
+Completed 500 Internal Server Error in 157ms
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0x007ffa6c0a47b8>):
+  app/controllers/sessions_controller.rb:9:in `create'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (68.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddRememberTokenToUsers (20140909151324)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "users" ADD "remember_token" varchar(255)[0m
+  [1m[35m (0.3ms)[0m  CREATE INDEX "index_users_on_remember_token" ON "users" ("remember_token")
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140909151324"]]
+  [1m[35m (128.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-09-09 16:21:09 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (45.1ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_social.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 195ms (Views: 162.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:10 +0100
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_navigation.html.erb (25.6ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:54 +0100
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (47.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.6ms)
+  Rendered layouts/_social.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:56 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-09 16:21:59 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered layouts/_navigation.html.erb (2.4ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:21:59 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (2.1ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:00 +0100
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ozi1kSEu2BmuAn3V8L4Pk7RfTIoPCrdGSzXc7FZv8BU=", "session"=>{"email"=>"alex.scott@tipsforthings.com", "password"=>"[FILTERED]"}, "commit"=>"Sign In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'alex.scott@tipsforthings.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["remember_token", "938af08be9f0f7d53fe07c5e2e1a13e8ac8e4e52"], ["updated_at", Tue, 09 Sep 2014 15:22:14 UTC +00:00]]
+  [1m[36m (68.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 244ms (ActiveRecord: 72.6ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '938af08be9f0f7d53fe07c5e2e1a13e8ac8e4e52' LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.4ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:14 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '938af08be9f0f7d53fe07c5e2e1a13e8ac8e4e52' LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.3ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:22:19 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '938af08be9f0f7d53fe07c5e2e1a13e8ac8e4e52' LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.5ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:46 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:47 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:47 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:47 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:47 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:47 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:47 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:47 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:47 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:47 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '938af08be9f0f7d53fe07c5e2e1a13e8ac8e4e52' LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.5ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:50 +0100
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (86.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '938af08be9f0f7d53fe07c5e2e1a13e8ac8e4e52' LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 118ms (Views: 105.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:23:55 +0100
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-09-09 16:23:58 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ozi1kSEu2BmuAn3V8L4Pk7RfTIoPCrdGSzXc7FZv8BU="}
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template sessions/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/alex/rails/trackmymixes/app/views"
+):
+  actionpack (4.0.8) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.8) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (4.0.8) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.8) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.8) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.8) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.8) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.8) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.8) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.8) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.8) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.8) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.8) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.8) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.8) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.8) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.8) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:403:in `_run__1669689445820653910__process_action__callbacks'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.0.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.8) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.8) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.8) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.8) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.8) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:373:in `_run__532071379093102355__call__callbacks'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  jasny_bundle (2.1.0) lib/jasny_bundle/middleware.rb:29:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (13.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '938af08be9f0f7d53fe07c5e2e1a13e8ac8e4e52' LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.2ms)
+  Rendered layouts/_social.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/bootstrap-social.css?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/navbar-offcanvas.css?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/sticky-footer.css?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100
+
+
+Started GET "/assets/jasny-bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-09 16:24:01 +0100

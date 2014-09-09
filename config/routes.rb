@@ -1,8 +1,14 @@
 Alxs::Application.routes.draw do
   match '/contact',     to: 'contacts#new',             via: 'get'
+
   resources "contacts", only: [:new, :create]  
   resources :users
+  resources :sessions, only: [:new, :create, :destroy]
+
   match '/signup',  to: 'users#new',            via: 'get'
+  match '/signin',  to: 'sessions#new',         via: 'get'
+  match '/signout', to: 'sessions#destroy',     via: 'delete'
+
   match '/help', to: 'main#help', via: 'get'
   match '/about', to: 'main#about', via: 'get'
   match '/blog', to: 'main#blog', via: 'get'
@@ -10,6 +16,7 @@ Alxs::Application.routes.draw do
   match '/terms', to: 'main#terms', via: 'get'
   match '/feedback', to: 'main#feedback', via: 'get'
   match '/jobs', to: 'main#jobs', via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   # You can have the root of your site routed with "root"

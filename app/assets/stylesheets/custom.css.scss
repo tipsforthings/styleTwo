@@ -441,6 +441,10 @@ hr {
   border: 1px solid rgb(21, 172, 230);
   border-radius: 6px;
 }
+.border-off {
+  border: 0px solid rgb(21, 172, 230) !important;
+  border-radius: 6px;
+}
 .border-top {
   border-top: 1px solid rgb(21, 172, 230);
 }

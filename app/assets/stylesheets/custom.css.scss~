@@ -441,6 +441,10 @@ hr {
   border: 1px solid rgb(21, 172, 230);
   border-radius: 6px;
 }
+.border-off {
+  border: 0px solid rgb(21, 172, 230);
+  border-radius: 6px;
+}
 .border-top {
   border-top: 1px solid rgb(21, 172, 230);
 }
@@ -462,7 +466,7 @@ label {
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
   color: rgb(255,255,255);
   background-color: rgba(21, 172, 230, 0.6);
-  border: 1px solid rgb(255,255,255);
+  border: 2px solid rgb(255,255,255);
 }
 .btn-default {
     background-color: rgba(21, 172, 230, 1.0);
@@ -472,12 +476,12 @@ label {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
   background-color: rgba(21, 172, 230, 0.6);
   color: rgb(255,255,255);
-  border: 1px solid rgb(255,255,255);
+  border: 2px solid rgb(255,255,255);
 }
 .btn-primary {
     color: rgba(21, 172, 230, 1.0);
     background-color: rgb(51,51,51);
-    border-color: rgba(21, 172, 230, 1.0);
+    border: 2px solid rgba(21, 172, 230, 1.0);
 }
 .remove-border {
   border: 0px solid #ffffff !important;

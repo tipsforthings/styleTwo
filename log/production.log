@@ -13377,3 +13377,580 @@ W, [2014-09-11T14:34:58.747215 #3228]  WARN -- : WARNING on line 543 of /home/al
 
 
 I, [2014-09-11T14:34:59.170519 #3228]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 14:34:59 +0100
+I, [2014-09-11T15:13:04.075438 #3228]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:13:04 +0100
+I, [2014-09-11T15:13:04.079306 #3228]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:13:04.114894 #3228]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.8ms)
+I, [2014-09-11T15:13:04.119901 #3228]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:13:04.120102 #3228]  INFO -- :   Rendered layouts/_header.html.erb (3.1ms)
+I, [2014-09-11T15:13:04.129618 #3228]  INFO -- :   Rendered layouts/_navigation.html.erb (8.6ms)
+I, [2014-09-11T15:13:04.131383 #3228]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:13:04.133225 #3228]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2014-09-11T15:13:04.134072 #3228]  INFO -- : Completed 200 OK in 54ms (Views: 21.8ms | ActiveRecord: 1.4ms)
+I, [2014-09-11T15:13:04.159555 #3228]  INFO -- : Started GET "/assets/application-ef2fce7f102793b4841cb27d67441022.css" for 127.0.0.1 at 2014-09-11 15:13:04 +0100
+I, [2014-09-11T15:13:07.669766 #5552]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:13:07 +0100
+I, [2014-09-11T15:13:07.703822 #5559]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:13:07 +0100
+W, [2014-09-11T15:13:07.964643 #5559]  WARN -- : WARNING on line 542 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T15:13:07.964858 #5559]  WARN -- : WARNING on line 543 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T15:13:08.418065 #3228]  INFO -- : Started GET "/assets/application-7a47002af2770009c9584ec54e0baa17.js" for 127.0.0.1 at 2014-09-11 15:13:08 +0100
+I, [2014-09-11T15:13:08.542618 #5559]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:13:08 +0100
+I, [2014-09-11T15:13:39.875189 #3228]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:13:39 +0100
+I, [2014-09-11T15:13:39.879473 #3228]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:13:39.883709 #3228]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.3ms)
+I, [2014-09-11T15:13:39.885933 #3228]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:13:39.886189 #3228]  INFO -- :   Rendered layouts/_header.html.erb (1.9ms)
+I, [2014-09-11T15:13:39.890283 #3228]  INFO -- :   Rendered layouts/_navigation.html.erb (3.6ms)
+I, [2014-09-11T15:13:39.890926 #3228]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:13:39.891569 #3228]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2014-09-11T15:13:39.892379 #3228]  INFO -- : Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.5ms)
+I, [2014-09-11T15:13:39.920926 #5559]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:13:39 +0100
+I, [2014-09-11T15:13:39.921510 #5552]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:13:39 +0100
+I, [2014-09-11T15:13:39.927182 #3228]  INFO -- : Started GET "/assets/application-ef2fce7f102793b4841cb27d67441022.css" for 127.0.0.1 at 2014-09-11 15:13:39 +0100
+I, [2014-09-11T15:13:39.970918 #3228]  INFO -- : Started GET "/assets/application-7a47002af2770009c9584ec54e0baa17.js" for 127.0.0.1 at 2014-09-11 15:13:39 +0100
+I, [2014-09-11T15:13:40.071294 #3228]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:13:40 +0100
+I, [2014-09-11T15:13:41.319239 #3228]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:13:41 +0100
+I, [2014-09-11T15:13:41.321412 #3228]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:13:41.324568 #3228]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.9ms)
+I, [2014-09-11T15:13:41.326792 #3228]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:13:41.327086 #3228]  INFO -- :   Rendered layouts/_header.html.erb (2.0ms)
+I, [2014-09-11T15:13:41.330365 #3228]  INFO -- :   Rendered layouts/_navigation.html.erb (2.9ms)
+I, [2014-09-11T15:13:41.330978 #3228]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:13:41.331463 #3228]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:13:41.332040 #3228]  INFO -- : Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.5ms)
+I, [2014-09-11T15:13:41.360793 #5552]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:13:41 +0100
+I, [2014-09-11T15:13:41.360783 #5559]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:13:41 +0100
+I, [2014-09-11T15:13:41.362683 #3228]  INFO -- : Started GET "/assets/application-ef2fce7f102793b4841cb27d67441022.css" for 127.0.0.1 at 2014-09-11 15:13:41 +0100
+I, [2014-09-11T15:13:41.410613 #3228]  INFO -- : Started GET "/assets/application-7a47002af2770009c9584ec54e0baa17.js" for 127.0.0.1 at 2014-09-11 15:13:41 +0100
+I, [2014-09-11T15:13:41.499063 #3228]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:13:41 +0100
+I, [2014-09-11T15:14:23.441005 #5872]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:14:23 +0100
+I, [2014-09-11T15:14:23.459913 #5872]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:14:23.495707 #5872]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.3ms)
+I, [2014-09-11T15:14:23.501435 #5872]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:14:23.501650 #5872]  INFO -- :   Rendered layouts/_header.html.erb (3.6ms)
+I, [2014-09-11T15:14:23.511482 #5872]  INFO -- :   Rendered layouts/_navigation.html.erb (8.9ms)
+I, [2014-09-11T15:14:23.513330 #5872]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:14:23.515351 #5872]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T15:14:23.516267 #5872]  INFO -- : Completed 200 OK in 56ms (Views: 24.5ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T15:14:23.641549 #5872]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:14:23 +0100
+I, [2014-09-11T15:14:23.649704 #5872]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:14:23 +0100
+I, [2014-09-11T15:14:23.790083 #5872]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:14:23 +0100
+I, [2014-09-11T15:14:25.423898 #5872]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:14:25 +0100
+I, [2014-09-11T15:14:25.426757 #5872]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:14:25.429921 #5872]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.7ms)
+I, [2014-09-11T15:14:25.434360 #5872]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:14:25.434556 #5872]  INFO -- :   Rendered layouts/_header.html.erb (3.4ms)
+I, [2014-09-11T15:14:25.439325 #5872]  INFO -- :   Rendered layouts/_navigation.html.erb (3.7ms)
+I, [2014-09-11T15:14:25.441326 #5872]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:14:25.443447 #5872]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T15:14:25.444286 #5872]  INFO -- : Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:14:26.519275 #5872]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:14:26 +0100
+I, [2014-09-11T15:14:26.522225 #5872]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:14:26.529066 #5872]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.5ms)
+I, [2014-09-11T15:14:26.531320 #5872]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:14:26.531496 #5872]  INFO -- :   Rendered layouts/_header.html.erb (1.6ms)
+I, [2014-09-11T15:14:26.534139 #5872]  INFO -- :   Rendered layouts/_navigation.html.erb (2.4ms)
+I, [2014-09-11T15:14:26.534636 #5872]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:14:26.535121 #5872]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:14:26.535766 #5872]  INFO -- : Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:14:44.369946 #5872]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:14:44 +0100
+I, [2014-09-11T15:14:44.372085 #5872]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:14:44.375131 #5872]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.0ms)
+I, [2014-09-11T15:14:44.376509 #5872]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:14:44.376701 #5872]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T15:14:44.379180 #5872]  INFO -- :   Rendered layouts/_navigation.html.erb (2.2ms)
+I, [2014-09-11T15:14:44.379684 #5872]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:14:44.380228 #5872]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:14:44.380918 #5872]  INFO -- : Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:14:45.919348 #5872]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:14:45 +0100
+I, [2014-09-11T15:14:45.920540 #5872]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:14:45.922226 #5872]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T15:14:45.923411 #5872]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:14:45.923593 #5872]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:14:45.926459 #5872]  INFO -- :   Rendered layouts/_navigation.html.erb (2.6ms)
+I, [2014-09-11T15:14:45.926889 #5872]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:14:45.930124 #5872]  INFO -- :   Rendered layouts/_footer.html.erb (3.0ms)
+I, [2014-09-11T15:14:45.930837 #5872]  INFO -- : Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:14:47.892127 #5872]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:14:47 +0100
+I, [2014-09-11T15:14:47.893513 #5872]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:14:47.895187 #5872]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T15:14:47.896677 #5872]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:14:47.896987 #5872]  INFO -- :   Rendered layouts/_header.html.erb (1.4ms)
+I, [2014-09-11T15:14:47.899426 #5872]  INFO -- :   Rendered layouts/_navigation.html.erb (2.1ms)
+I, [2014-09-11T15:14:47.899867 #5872]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:14:47.900410 #5872]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:14:47.901023 #5872]  INFO -- : Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:15:19.936162 #6093]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:15:19 +0100
+I, [2014-09-11T15:15:19.957841 #6093]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:15:19.994197 #6093]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.3ms)
+I, [2014-09-11T15:15:20.000189 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:15:20.000447 #6093]  INFO -- :   Rendered layouts/_header.html.erb (3.8ms)
+I, [2014-09-11T15:15:20.010865 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (9.4ms)
+I, [2014-09-11T15:15:20.012712 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:15:20.014758 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T15:15:20.015696 #6093]  INFO -- : Completed 200 OK in 58ms (Views: 25.6ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T15:15:20.150394 #6093]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:15:20 +0100
+I, [2014-09-11T15:15:20.166926 #6093]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:15:20 +0100
+I, [2014-09-11T15:15:20.295314 #6093]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:15:20 +0100
+I, [2014-09-11T15:15:21.530003 #6093]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:15:21 +0100
+I, [2014-09-11T15:15:21.532725 #6093]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:15:21.536599 #6093]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.5ms)
+I, [2014-09-11T15:15:21.541740 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.7ms)
+I, [2014-09-11T15:15:21.541984 #6093]  INFO -- :   Rendered layouts/_header.html.erb (4.0ms)
+I, [2014-09-11T15:15:21.546902 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (3.7ms)
+I, [2014-09-11T15:15:21.548812 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:15:21.550919 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T15:15:21.551727 #6093]  INFO -- : Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:15:22.568492 #6093]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:15:22 +0100
+I, [2014-09-11T15:15:22.571656 #6093]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:15:22.575514 #6093]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.9ms)
+I, [2014-09-11T15:15:22.577830 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:22.578192 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.9ms)
+I, [2014-09-11T15:15:22.582337 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (3.7ms)
+I, [2014-09-11T15:15:22.582865 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:22.583422 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:15:22.584011 #6093]  INFO -- : Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:15:23.489500 #6093]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:15:23 +0100
+I, [2014-09-11T15:15:23.490717 #6093]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:15:23.492360 #6093]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T15:15:23.493631 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:23.493798 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T15:15:23.495980 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T15:15:23.496385 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:23.496892 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:15:23.497420 #6093]  INFO -- : Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:15:24.644029 #6093]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:15:24 +0100
+I, [2014-09-11T15:15:24.646299 #6093]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:15:24.650776 #6093]  INFO -- :   Rendered main/about.html.erb within layouts/application (1.2ms)
+I, [2014-09-11T15:15:24.653312 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:24.653576 #6093]  INFO -- :   Rendered layouts/_header.html.erb (2.1ms)
+I, [2014-09-11T15:15:24.658301 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (4.3ms)
+I, [2014-09-11T15:15:24.659034 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:24.659899 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2014-09-11T15:15:24.660840 #6093]  INFO -- : Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.5ms)
+I, [2014-09-11T15:15:25.816515 #6093]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:15:25 +0100
+I, [2014-09-11T15:15:25.819514 #6093]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:15:25.822010 #6093]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T15:15:25.823186 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:25.823361 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:15:25.825554 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T15:15:25.825976 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:25.826422 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:15:25.826997 #6093]  INFO -- : Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:15:26.620085 #6093]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:15:26 +0100
+I, [2014-09-11T15:15:26.621307 #6093]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:15:26.622546 #6093]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.1ms)
+I, [2014-09-11T15:15:26.623753 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:26.623895 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:15:26.626050 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (1.9ms)
+I, [2014-09-11T15:15:26.626483 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:26.626902 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:15:26.627472 #6093]  INFO -- : Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:15:27.838352 #6093]  INFO -- : Started GET "/blog" for 127.0.0.1 at 2014-09-11 15:15:27 +0100
+I, [2014-09-11T15:15:27.839701 #6093]  INFO -- : Processing by MainController#blog as HTML
+I, [2014-09-11T15:15:27.842433 #6093]  INFO -- :   Rendered main/blog.html.erb within layouts/application (0.7ms)
+I, [2014-09-11T15:15:27.843948 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:27.844105 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T15:15:27.846882 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.5ms)
+I, [2014-09-11T15:15:27.847368 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:27.847816 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:15:27.848502 #6093]  INFO -- : Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:15:28.512993 #6093]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:15:28 +0100
+I, [2014-09-11T15:15:28.514594 #6093]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:15:28.516216 #6093]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.1ms)
+I, [2014-09-11T15:15:28.517385 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:28.517530 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:15:28.519714 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T15:15:28.520115 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:28.520589 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:15:28.521151 #6093]  INFO -- : Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:15:33.289758 #6093]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:15:33 +0100
+I, [2014-09-11T15:15:33.290963 #6093]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:15:33.292643 #6093]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.5ms)
+I, [2014-09-11T15:15:33.293857 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:33.294009 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:15:33.296173 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T15:15:33.296577 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:33.297036 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:15:33.297555 #6093]  INFO -- : Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:15:34.091439 #6093]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:15:34 +0100
+I, [2014-09-11T15:15:34.093646 #6093]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:15:34.096114 #6093]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.2ms)
+I, [2014-09-11T15:15:34.098290 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.2ms)
+I, [2014-09-11T15:15:34.098592 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.8ms)
+I, [2014-09-11T15:15:34.101779 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.8ms)
+I, [2014-09-11T15:15:34.102149 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:34.102630 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:15:34.103136 #6093]  INFO -- : Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:15:35.665120 #6093]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:15:35 +0100
+I, [2014-09-11T15:15:35.667255 #6093]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:15:35.670154 #6093]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.8ms)
+I, [2014-09-11T15:15:35.671374 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:35.671546 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:15:35.673645 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (1.9ms)
+I, [2014-09-11T15:15:35.674047 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:35.674472 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:15:35.674995 #6093]  INFO -- : Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:15:37.007147 #6093]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:15:37 +0100
+I, [2014-09-11T15:15:37.008364 #6093]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:15:37.009789 #6093]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.2ms)
+I, [2014-09-11T15:15:37.011005 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:37.011160 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:15:37.013351 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T15:15:37.013796 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:37.014235 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:15:37.014825 #6093]  INFO -- : Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:15:37.745259 #6093]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:15:37 +0100
+I, [2014-09-11T15:15:37.746471 #6093]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:15:37.748120 #6093]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T15:15:37.749396 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:15:37.749577 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T15:15:37.751820 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T15:15:37.752215 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:15:37.752709 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:15:37.753214 #6093]  INFO -- : Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:16:21.400891 #6093]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:16:21 +0100
+I, [2014-09-11T15:16:21.402070 #6093]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:16:21.403338 #6093]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.1ms)
+I, [2014-09-11T15:16:21.404441 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:16:21.404605 #6093]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2014-09-11T15:16:21.406913 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.1ms)
+I, [2014-09-11T15:16:21.407290 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:16:21.407765 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:16:21.408277 #6093]  INFO -- : Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:16:22.489234 #6093]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:16:22 +0100
+I, [2014-09-11T15:16:22.490339 #6093]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:16:22.493716 #6093]  INFO -- :   Rendered main/about.html.erb within layouts/application (1.4ms)
+I, [2014-09-11T15:16:22.495075 #6093]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:16:22.495233 #6093]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T15:16:22.497849 #6093]  INFO -- :   Rendered layouts/_navigation.html.erb (2.4ms)
+I, [2014-09-11T15:16:22.498281 #6093]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:16:22.498777 #6093]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:16:22.499407 #6093]  INFO -- : Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:16:22.535373 #6093]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:16:22 +0100
+I, [2014-09-11T15:16:22.542837 #6101]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:16:22 +0100
+I, [2014-09-11T15:16:22.694413 #6101]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:16:22 +0100
+I, [2014-09-11T15:16:51.599484 #6101]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:16:51 +0100
+I, [2014-09-11T15:16:51.606127 #6101]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:16:51.642266 #6101]  INFO -- :   Rendered main/about.html.erb within layouts/application (2.3ms)
+I, [2014-09-11T15:16:51.648116 #6101]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:16:51.648348 #6101]  INFO -- :   Rendered layouts/_header.html.erb (3.7ms)
+I, [2014-09-11T15:16:51.658341 #6101]  INFO -- :   Rendered layouts/_navigation.html.erb (9.1ms)
+I, [2014-09-11T15:16:51.660150 #6101]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:16:51.662176 #6101]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T15:16:51.663089 #6101]  INFO -- : Completed 200 OK in 57ms (Views: 24.8ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T15:16:51.694088 #6101]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:16:51 +0100
+I, [2014-09-11T15:16:51.697136 #6093]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:16:51 +0100
+I, [2014-09-11T15:16:51.854393 #6101]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:16:51 +0100
+I, [2014-09-11T15:16:53.555525 #6101]  INFO -- : Started GET "/signup" for 127.0.0.1 at 2014-09-11 15:16:53 +0100
+I, [2014-09-11T15:16:53.560684 #6101]  INFO -- : Processing by UsersController#new as HTML
+I, [2014-09-11T15:16:53.582758 #6101]  INFO -- :   Rendered shared/_error_messages.html.erb (0.8ms)
+I, [2014-09-11T15:16:53.856951 #6101]  INFO -- :   Rendered users/_fields.html.erb (276.9ms)
+I, [2014-09-11T15:16:53.857815 #6101]  INFO -- :   Rendered users/new.html.erb within layouts/application (292.3ms)
+I, [2014-09-11T15:16:53.862310 #6101]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T15:16:53.862506 #6101]  INFO -- :   Rendered layouts/_header.html.erb (3.6ms)
+I, [2014-09-11T15:16:53.867102 #6101]  INFO -- :   Rendered layouts/_navigation.html.erb (3.6ms)
+I, [2014-09-11T15:16:53.868928 #6101]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:16:53.870965 #6101]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T15:16:53.871713 #6101]  INFO -- : Completed 200 OK in 311ms (Views: 307.8ms | ActiveRecord: 0.5ms)
+I, [2014-09-11T15:16:55.629051 #6101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:16:55 +0100
+I, [2014-09-11T15:16:55.677520 #6101]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:16:55.681119 #6101]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.3ms)
+I, [2014-09-11T15:16:55.682636 #6101]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:16:55.682815 #6101]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T15:16:55.685556 #6101]  INFO -- :   Rendered layouts/_navigation.html.erb (2.5ms)
+I, [2014-09-11T15:16:55.686052 #6101]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:16:55.686553 #6101]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:16:55.687206 #6101]  INFO -- : Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:16:56.975795 #6101]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:16:56 +0100
+I, [2014-09-11T15:16:56.978712 #6101]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:16:56.985205 #6101]  INFO -- :   Rendered main/about.html.erb within layouts/application (2.4ms)
+I, [2014-09-11T15:16:56.987794 #6101]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:16:56.988078 #6101]  INFO -- :   Rendered layouts/_header.html.erb (2.1ms)
+I, [2014-09-11T15:16:56.991869 #6101]  INFO -- :   Rendered layouts/_navigation.html.erb (3.4ms)
+I, [2014-09-11T15:16:56.992306 #6101]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:16:56.992770 #6101]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:16:56.993395 #6101]  INFO -- : Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:16:57.863066 #6101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:16:57 +0100
+I, [2014-09-11T15:16:57.864629 #6101]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:16:57.866485 #6101]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T15:16:57.867639 #6101]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:16:57.867808 #6101]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:16:57.870180 #6101]  INFO -- :   Rendered layouts/_navigation.html.erb (2.1ms)
+I, [2014-09-11T15:16:57.870674 #6101]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:16:57.871152 #6101]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:16:57.871773 #6101]  INFO -- : Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:17:00.628459 #6101]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:17:00 +0100
+I, [2014-09-11T15:17:00.629638 #6101]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:17:00.631277 #6101]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T15:17:00.632375 #6101]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:17:00.632521 #6101]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2014-09-11T15:17:00.634622 #6101]  INFO -- :   Rendered layouts/_navigation.html.erb (1.9ms)
+I, [2014-09-11T15:17:00.635006 #6101]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:17:00.635460 #6101]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:17:00.635980 #6101]  INFO -- : Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:17:13.058688 #6514]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:17:13 +0100
+I, [2014-09-11T15:17:13.078026 #6514]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:17:13.114211 #6514]  INFO -- :   Rendered main/about.html.erb within layouts/application (2.3ms)
+I, [2014-09-11T15:17:13.119955 #6514]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:17:13.120170 #6514]  INFO -- :   Rendered layouts/_header.html.erb (3.6ms)
+I, [2014-09-11T15:17:13.130114 #6514]  INFO -- :   Rendered layouts/_navigation.html.erb (9.0ms)
+I, [2014-09-11T15:17:13.131979 #6514]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:17:13.145847 #6514]  INFO -- :   Rendered layouts/_footer.html.erb (1.1ms)
+I, [2014-09-11T15:17:13.146834 #6514]  INFO -- : Completed 200 OK in 69ms (Views: 36.9ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T15:17:13.316755 #6514]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:17:13 +0100
+I, [2014-09-11T15:17:13.324099 #6514]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:17:13 +0100
+W, [2014-09-11T15:18:22.587219 #6648]  WARN -- : WARNING on line 546 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T15:18:22.587430 #6648]  WARN -- : WARNING on line 547 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T15:18:34.157037 #6833]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:18:34 +0100
+I, [2014-09-11T15:18:34.179031 #6833]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:18:34.215142 #6833]  INFO -- :   Rendered main/about.html.erb within layouts/application (2.3ms)
+I, [2014-09-11T15:18:34.220934 #6833]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:18:34.221149 #6833]  INFO -- :   Rendered layouts/_header.html.erb (3.6ms)
+I, [2014-09-11T15:18:34.231052 #6833]  INFO -- :   Rendered layouts/_navigation.html.erb (8.9ms)
+I, [2014-09-11T15:18:34.232916 #6833]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:18:34.234972 #6833]  INFO -- :   Rendered layouts/_footer.html.erb (1.1ms)
+I, [2014-09-11T15:18:34.235931 #6833]  INFO -- : Completed 200 OK in 57ms (Views: 24.8ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T15:18:34.351349 #6833]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:18:34 +0100
+I, [2014-09-11T15:18:34.369078 #6833]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:18:34 +0100
+I, [2014-09-11T15:18:34.672321 #6833]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:18:34 +0100
+I, [2014-09-11T15:18:49.036994 #6833]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:18:49 +0100
+I, [2014-09-11T15:18:49.039881 #6833]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:18:49.042041 #6833]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.6ms)
+I, [2014-09-11T15:18:49.043335 #6833]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:18:49.043533 #6833]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T15:18:49.046200 #6833]  INFO -- :   Rendered layouts/_navigation.html.erb (2.4ms)
+I, [2014-09-11T15:18:49.046716 #6833]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:18:49.047359 #6833]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:18:49.048023 #6833]  INFO -- : Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:18:49.077276 #6833]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:18:49 +0100
+I, [2014-09-11T15:18:49.083829 #6841]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:18:49 +0100
+W, [2014-09-11T15:18:49.324723 #6841]  WARN -- : WARNING on line 546 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T15:18:49.324923 #6841]  WARN -- : WARNING on line 547 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T15:18:49.616138 #6841]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:18:49 +0100
+I, [2014-09-11T15:19:12.305319 #6841]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:19:12 +0100
+I, [2014-09-11T15:19:12.311511 #6841]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:19:12.345791 #6841]  INFO -- :   Rendered main/about.html.erb within layouts/application (1.0ms)
+I, [2014-09-11T15:19:12.351213 #6841]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:19:12.351445 #6841]  INFO -- :   Rendered layouts/_header.html.erb (3.5ms)
+I, [2014-09-11T15:19:12.360730 #6841]  INFO -- :   Rendered layouts/_navigation.html.erb (8.4ms)
+I, [2014-09-11T15:19:12.362543 #6841]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:19:12.364454 #6841]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T15:19:12.365350 #6841]  INFO -- : Completed 200 OK in 54ms (Views: 22.0ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T15:19:12.401037 #6833]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:19:12 +0100
+I, [2014-09-11T15:19:12.401118 #6841]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:19:12 +0100
+I, [2014-09-11T15:19:12.556131 #6841]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:19:12 +0100
+I, [2014-09-11T15:20:40.217113 #6841]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:20:40 +0100
+I, [2014-09-11T15:20:40.220974 #6841]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:20:40.224133 #6841]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.2ms)
+I, [2014-09-11T15:20:40.226255 #6841]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:20:40.226546 #6841]  INFO -- :   Rendered layouts/_header.html.erb (1.8ms)
+I, [2014-09-11T15:20:40.231329 #6841]  INFO -- :   Rendered layouts/_navigation.html.erb (4.4ms)
+I, [2014-09-11T15:20:40.231830 #6841]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:20:40.232406 #6841]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:20:40.233031 #6841]  INFO -- : Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.6ms)
+I, [2014-09-11T15:20:40.269808 #6833]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:20:40 +0100
+I, [2014-09-11T15:20:40.270322 #6841]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:20:40 +0100
+I, [2014-09-11T15:20:40.464439 #6841]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:20:40 +0100
+I, [2014-09-11T15:20:58.736718 #6841]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:20:58 +0100
+I, [2014-09-11T15:20:58.738428 #6841]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:20:58.740574 #6841]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.3ms)
+I, [2014-09-11T15:20:58.741621 #6841]  INFO -- :   Rendered layouts/_shim.html.erb (0.0ms)
+I, [2014-09-11T15:20:58.741763 #6841]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2014-09-11T15:20:58.743937 #6841]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T15:20:58.744338 #6841]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:20:58.744812 #6841]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:20:58.745353 #6841]  INFO -- : Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:20:58.791734 #6841]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:20:58 +0100
+I, [2014-09-11T15:20:58.791834 #6833]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:20:58 +0100
+I, [2014-09-11T15:20:58.986739 #6833]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:20:58 +0100
+I, [2014-09-11T15:21:11.767088 #7102]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:21:11 +0100
+I, [2014-09-11T15:21:11.804496 #7102]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:21:11.840546 #7102]  INFO -- :   Rendered main/about.html.erb within layouts/application (1.3ms)
+I, [2014-09-11T15:21:11.846635 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T15:21:11.846847 #7102]  INFO -- :   Rendered layouts/_header.html.erb (3.8ms)
+I, [2014-09-11T15:21:11.857362 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (9.5ms)
+I, [2014-09-11T15:21:11.859273 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:21:11.861344 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (1.1ms)
+I, [2014-09-11T15:21:11.862271 #7102]  INFO -- : Completed 200 OK in 57ms (Views: 24.8ms | ActiveRecord: 1.3ms)
+I, [2014-09-11T15:21:12.071197 #7102]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:21:12 +0100
+I, [2014-09-11T15:21:12.084570 #7102]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:21:12 +0100
+I, [2014-09-11T15:21:12.251156 #7102]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:21:12 +0100
+I, [2014-09-11T15:21:17.443057 #7102]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:21:17 +0100
+I, [2014-09-11T15:21:17.445902 #7102]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:21:17.449813 #7102]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.4ms)
+I, [2014-09-11T15:21:17.454174 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:21:17.454382 #7102]  INFO -- :   Rendered layouts/_header.html.erb (3.3ms)
+I, [2014-09-11T15:21:17.458942 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (3.5ms)
+I, [2014-09-11T15:21:17.460814 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:21:17.462876 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T15:21:17.463683 #7102]  INFO -- : Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:21:18.626711 #7102]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:21:18 +0100
+I, [2014-09-11T15:21:18.629799 #7102]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:21:18.635683 #7102]  INFO -- :   Rendered main/about.html.erb within layouts/application (1.4ms)
+I, [2014-09-11T15:21:18.638587 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:21:18.638895 #7102]  INFO -- :   Rendered layouts/_header.html.erb (2.4ms)
+I, [2014-09-11T15:21:18.642539 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (3.3ms)
+I, [2014-09-11T15:21:18.643007 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:21:18.643591 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2014-09-11T15:21:18.644318 #7102]  INFO -- : Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:21:19.818931 #7102]  INFO -- : Started GET "/blog" for 127.0.0.1 at 2014-09-11 15:21:19 +0100
+I, [2014-09-11T15:21:19.822512 #7102]  INFO -- : Processing by MainController#blog as HTML
+I, [2014-09-11T15:21:19.828037 #7102]  INFO -- :   Rendered main/blog.html.erb within layouts/application (1.3ms)
+I, [2014-09-11T15:21:19.830687 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:21:19.830848 #7102]  INFO -- :   Rendered layouts/_header.html.erb (2.0ms)
+I, [2014-09-11T15:21:19.833772 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (2.7ms)
+I, [2014-09-11T15:21:19.834214 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:21:19.834693 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:21:19.835404 #7102]  INFO -- : Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:21:20.576000 #7102]  INFO -- : Started GET "/contact" for 127.0.0.1 at 2014-09-11 15:21:20 +0100
+I, [2014-09-11T15:21:20.578778 #7102]  INFO -- : Processing by ContactsController#new as HTML
+I, [2014-09-11T15:21:20.914158 #7102]  INFO -- :   Rendered contacts/new.html.erb within layouts/application (331.8ms)
+I, [2014-09-11T15:21:20.915609 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:21:20.915772 #7102]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T15:21:20.918382 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (2.4ms)
+I, [2014-09-11T15:21:20.918831 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:21:20.919289 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:21:20.919933 #7102]  INFO -- : Completed 200 OK in 341ms (Views: 339.3ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:21:21.210798 #7102]  INFO -- : Started GET "/blog" for 127.0.0.1 at 2014-09-11 15:21:21 +0100
+I, [2014-09-11T15:21:21.212413 #7102]  INFO -- : Processing by MainController#blog as HTML
+I, [2014-09-11T15:21:21.214004 #7102]  INFO -- :   Rendered main/blog.html.erb within layouts/application (0.1ms)
+I, [2014-09-11T15:21:21.215225 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:21:21.215398 #7102]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T15:21:21.217715 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (2.1ms)
+I, [2014-09-11T15:21:21.218108 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:21:21.218570 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:21:21.219112 #7102]  INFO -- : Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:21:22.473566 #7102]  INFO -- : Started GET "/contact" for 127.0.0.1 at 2014-09-11 15:21:22 +0100
+I, [2014-09-11T15:21:22.477533 #7102]  INFO -- : Processing by ContactsController#new as HTML
+I, [2014-09-11T15:21:22.489570 #7102]  INFO -- :   Rendered contacts/new.html.erb within layouts/application (9.7ms)
+I, [2014-09-11T15:21:22.490773 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:21:22.490917 #7102]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:21:22.492998 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (1.9ms)
+I, [2014-09-11T15:21:22.493410 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:21:22.493829 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:21:22.494392 #7102]  INFO -- : Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:21:57.875144 #7102]  INFO -- : Started GET "/blog" for 127.0.0.1 at 2014-09-11 15:21:57 +0100
+I, [2014-09-11T15:21:57.876375 #7102]  INFO -- : Processing by MainController#blog as HTML
+I, [2014-09-11T15:21:57.877701 #7102]  INFO -- :   Rendered main/blog.html.erb within layouts/application (0.1ms)
+I, [2014-09-11T15:21:57.878795 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.0ms)
+I, [2014-09-11T15:21:57.878939 #7102]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2014-09-11T15:21:57.881089 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (1.9ms)
+I, [2014-09-11T15:21:57.881506 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:21:57.881955 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:21:57.882525 #7102]  INFO -- : Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:21:58.925834 #7102]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:21:58 +0100
+I, [2014-09-11T15:21:58.926985 #7102]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:21:58.928210 #7102]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.1ms)
+I, [2014-09-11T15:21:58.929245 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.0ms)
+I, [2014-09-11T15:21:58.929388 #7102]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2014-09-11T15:21:58.931650 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T15:21:58.932049 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:21:58.932503 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:21:58.933026 #7102]  INFO -- : Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:21:59.733992 #7102]  INFO -- : Started GET "/blog" for 127.0.0.1 at 2014-09-11 15:21:59 +0100
+I, [2014-09-11T15:21:59.735122 #7102]  INFO -- : Processing by MainController#blog as HTML
+I, [2014-09-11T15:21:59.736431 #7102]  INFO -- :   Rendered main/blog.html.erb within layouts/application (0.1ms)
+I, [2014-09-11T15:21:59.737517 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.0ms)
+I, [2014-09-11T15:21:59.737661 #7102]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2014-09-11T15:21:59.739647 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (1.8ms)
+I, [2014-09-11T15:21:59.740019 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:21:59.740487 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:21:59.740982 #7102]  INFO -- : Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T15:22:00.974451 #7102]  INFO -- : Started GET "/blog" for 127.0.0.1 at 2014-09-11 15:22:00 +0100
+I, [2014-09-11T15:22:00.977049 #7102]  INFO -- : Processing by MainController#blog as HTML
+I, [2014-09-11T15:22:00.981782 #7102]  INFO -- :   Rendered main/blog.html.erb within layouts/application (1.4ms)
+I, [2014-09-11T15:22:00.984403 #7102]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:22:00.984705 #7102]  INFO -- :   Rendered layouts/_header.html.erb (2.2ms)
+I, [2014-09-11T15:22:00.990316 #7102]  INFO -- :   Rendered layouts/_navigation.html.erb (5.1ms)
+I, [2014-09-11T15:22:00.990866 #7102]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:22:00.991381 #7102]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:22:00.992123 #7102]  INFO -- : Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+I, [2014-09-11T15:22:01.026873 #7110]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:22:01 +0100
+I, [2014-09-11T15:22:01.030900 #7102]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:22:01 +0100
+I, [2014-09-11T15:22:01.187290 #7110]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:22:01 +0100
+I, [2014-09-11T15:22:04.352449 #7110]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:22:04 +0100
+I, [2014-09-11T15:22:04.360574 #7110]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:22:04.396577 #7110]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.2ms)
+I, [2014-09-11T15:22:04.402624 #7110]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:22:04.402829 #7110]  INFO -- :   Rendered layouts/_header.html.erb (3.8ms)
+I, [2014-09-11T15:22:04.412877 #7110]  INFO -- :   Rendered layouts/_navigation.html.erb (9.0ms)
+I, [2014-09-11T15:22:04.414859 #7110]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:22:04.416947 #7110]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T15:22:04.417857 #7110]  INFO -- : Completed 200 OK in 57ms (Views: 25.3ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T15:22:05.240945 #7110]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 15:22:05 +0100
+I, [2014-09-11T15:22:05.246223 #7110]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T15:22:05.251293 #7110]  INFO -- :   Rendered main/about.html.erb within layouts/application (0.8ms)
+I, [2014-09-11T15:22:05.252892 #7110]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:22:05.253060 #7110]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+I, [2014-09-11T15:22:05.256004 #7110]  INFO -- :   Rendered layouts/_navigation.html.erb (2.7ms)
+I, [2014-09-11T15:22:05.256493 #7110]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:22:05.257002 #7110]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:22:05.257718 #7110]  INFO -- : Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:22:06.054033 #7110]  INFO -- : Started GET "/blog" for 127.0.0.1 at 2014-09-11 15:22:06 +0100
+I, [2014-09-11T15:22:06.055846 #7110]  INFO -- : Processing by MainController#blog as HTML
+I, [2014-09-11T15:22:06.058800 #7110]  INFO -- :   Rendered main/blog.html.erb within layouts/application (0.7ms)
+I, [2014-09-11T15:22:06.060318 #7110]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:22:06.060486 #7110]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T15:22:06.063318 #7110]  INFO -- :   Rendered layouts/_navigation.html.erb (2.6ms)
+I, [2014-09-11T15:22:06.063772 #7110]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:22:06.064413 #7110]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2014-09-11T15:22:06.065077 #7110]  INFO -- : Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:22:06.813361 #7110]  INFO -- : Started GET "/contact" for 127.0.0.1 at 2014-09-11 15:22:06 +0100
+I, [2014-09-11T15:22:06.818687 #7110]  INFO -- : Processing by ContactsController#new as HTML
+I, [2014-09-11T15:22:07.108922 #7110]  INFO -- :   Rendered contacts/new.html.erb within layouts/application (285.8ms)
+I, [2014-09-11T15:22:07.110324 #7110]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:22:07.110526 #7110]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T15:22:07.113145 #7110]  INFO -- :   Rendered layouts/_navigation.html.erb (2.4ms)
+I, [2014-09-11T15:22:07.113588 #7110]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:22:07.114084 #7110]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T15:22:07.114744 #7110]  INFO -- : Completed 200 OK in 296ms (Views: 293.2ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:22:28.018169 #7110]  INFO -- : Started GET "/contact" for 127.0.0.1 at 2014-09-11 15:22:28 +0100
+I, [2014-09-11T15:22:28.021395 #7110]  INFO -- : Processing by ContactsController#new as HTML
+I, [2014-09-11T15:22:28.077521 #7110]  INFO -- :   Rendered contacts/new.html.erb within layouts/application (53.4ms)
+I, [2014-09-11T15:22:28.081379 #7110]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T15:22:28.081593 #7110]  INFO -- :   Rendered layouts/_header.html.erb (3.1ms)
+I, [2014-09-11T15:22:28.085983 #7110]  INFO -- :   Rendered layouts/_navigation.html.erb (3.5ms)
+I, [2014-09-11T15:22:28.087679 #7110]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T15:22:28.089550 #7110]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2014-09-11T15:22:28.090302 #7110]  INFO -- : Completed 200 OK in 69ms (Views: 67.2ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T15:22:28.124446 #7110]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 15:22:28 +0100
+I, [2014-09-11T15:22:28.124534 #7102]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 15:22:28 +0100
+I, [2014-09-11T15:22:28.298120 #7110]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 15:22:28 +0100
+I, [2014-09-11T15:23:27.480449 #7110]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 15:23:27 +0100
+I, [2014-09-11T15:23:27.481935 #7110]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T15:23:27.483941 #7110]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.5ms)
+I, [2014-09-11T15:23:27.485121 #7110]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T15:23:27.485267 #7110]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T15:23:27.487711 #7110]  INFO -- :   Rendered layouts/_navigation.html.erb (2.2ms)
+I, [2014-09-11T15:23:27.488130 #7110]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T15:23:27.488589 #7110]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T15:23:27.489129 #7110]  INFO -- : Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.3ms)

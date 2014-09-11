@@ -1,3 +1,21 @@
 <% provide(:title, 'About') %>
 <% provide(:ogdesc, 'TrackMyMixes, taking your music to the next level.') %>
+  <div class="row">
+    <div class="col-md-2">
+      <div>
+      </div>
+    </div>
+    <div class="col-md-8">
+          <h2 class="three-em border-off" style="font-weight: bold; ">
+            About
+          </h2>
+<div class="center">
+
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div>
+      </div>
+    </div>
+  </div>
 

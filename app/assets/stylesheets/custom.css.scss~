@@ -181,8 +181,8 @@ p {
     cursor: default;
 }
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-    color: rgb(21, 172, 230);
-    background-color: rgb(138, 138, 138);
+    color: rgb(255,255,255);
+    background-color: rgb(21,172,230);
     border-color: rgb(221, 221, 221);
 }
 .pagination > li > a, .pagination > li > span {
@@ -459,6 +459,16 @@ label {
   padding-top: 10px;
   padding-bottom: 2px;
 }
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+  color: rgb(255,255,255);
+  background-color: rgba(21, 172, 230, 0.6);
+  border: 1px solid rgb(255,255,255);
+}
+.btn-default {
+    background-color: rgba(21, 172, 230, 1.0);
+    color: rgb(51,51,51);
+    border: 2px solid rgba(51, 51, 51, 1.0);
+}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
   background-color: rgba(21, 172, 230, 0.6);
   color: rgb(255,255,255);
@@ -546,4 +556,7 @@ inout {
       border-bottom: 1px solid rgb(138, 138, 138);
     }
   }
+}
+.aside {
+  margin-top: 15px;
 }

@@ -12445,3 +12445,935 @@ I, [2014-09-05T20:37:11.738785 #20866]  INFO -- :   Rendered layouts/_navigation
 I, [2014-09-05T20:37:11.740366 #20866]  INFO -- :   Rendered layouts/_social.html.erb (0.4ms)
 I, [2014-09-05T20:37:11.742177 #20866]  INFO -- :   Rendered layouts/_footer.html.erb (0.8ms)
 I, [2014-09-05T20:37:11.742895 #20866]  INFO -- : Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+I, [2014-09-11T13:10:03.504345 #10593]  INFO -- : Migrating to CreateUsers (20140909114813)
+I, [2014-09-11T13:10:03.637392 #10593]  INFO -- : Migrating to AddIndexToUsersEmail (20140909120155)
+I, [2014-09-11T13:10:03.772438 #10593]  INFO -- : Migrating to AddPasswordDigestToUsers (20140909120510)
+I, [2014-09-11T13:10:03.866330 #10593]  INFO -- : Migrating to AddRememberTokenToUsers (20140909151324)
+I, [2014-09-11T13:10:03.965693 #10593]  INFO -- : Migrating to AddAdminToUsers (20140909223531)
+E, [2014-09-11T13:10:56.609132 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:57.145471 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:57.518532 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:57.832352 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:58.165769 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:58.423927 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:58.713853 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:58.913800 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:59.129617 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:59.452995 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:10:59.724395 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:00.018794 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:00.318852 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:00.635315 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:00.917790 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:01.220088 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:01.524604 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:01.843919 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:02.124665 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:02.435753 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:02.719014 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:03.041871 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:03.327049 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:03.615668 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:03.921055 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:04.213510 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:04.516876 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:04.820750 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:05.131528 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:05.432563 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:05.744384 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:06.016864 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:06.310623 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:06.636026 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:06.908238 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:07.205643 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:07.421116 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:07.733739 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:08.016960 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:08.311174 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:08.626228 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:08.927146 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:09.219859 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:09.443192 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:09.740792 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:10.036758 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:10.296037 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:10.500928 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:10.722218 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:11.093283 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:11.343090 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:11.617271 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:11.917370 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:12.245535 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:12.485331 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:12.732564 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:13.017707 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:13.326416 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:13.611590 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:13.906452 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:14.234214 #10735] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:11:14.562649 #10735] ERROR -- : SQLite3::SchemaChangedException: malformed database schema (Clovis Fadel) - near "2014": syntax error: SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('example-61@railstutorial.org') LIMIT 1
+I, [2014-09-11T13:11:14.836564 #10713]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:11:14 +0100
+I, [2014-09-11T13:11:17.494431 #10713]  INFO -- : Started GET "/users" for 127.0.0.1 at 2014-09-11 13:11:17 +0100
+I, [2014-09-11T13:11:17.501976 #10713]  INFO -- : Processing by UsersController#index as HTML
+E, [2014-09-11T13:11:17.536636 #10713] ERROR -- : SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"
+I, [2014-09-11T13:11:17.537145 #10713]  INFO -- : Completed 500 Internal Server Error in 35ms
+F, [2014-09-11T13:11:17.540431 #10713] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"):
+  app/helpers/sessions_helper.rb:20:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/controllers/users_controller.rb:57:in `signed_in_user'
+
+
+I, [2014-09-11T13:11:17.551198 #10713]  INFO -- : Started GET "/users" for 127.0.0.1 at 2014-09-11 13:11:17 +0100
+I, [2014-09-11T13:11:17.556078 #10713]  INFO -- : Processing by UsersController#index as HTML
+E, [2014-09-11T13:11:17.560253 #10713] ERROR -- : SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"
+I, [2014-09-11T13:11:17.560693 #10713]  INFO -- : Completed 500 Internal Server Error in 4ms
+F, [2014-09-11T13:11:17.563563 #10713] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"):
+  app/helpers/sessions_helper.rb:20:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/controllers/users_controller.rb:57:in `signed_in_user'
+
+
+I, [2014-09-11T13:11:19.813103 #10713]  INFO -- : Started GET "/users" for 127.0.0.1 at 2014-09-11 13:11:19 +0100
+I, [2014-09-11T13:11:19.814275 #10713]  INFO -- : Processing by UsersController#index as HTML
+E, [2014-09-11T13:11:19.815949 #10713] ERROR -- : SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"
+I, [2014-09-11T13:11:19.816165 #10713]  INFO -- : Completed 500 Internal Server Error in 2ms
+F, [2014-09-11T13:11:19.819083 #10713] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"):
+  app/helpers/sessions_helper.rb:20:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/controllers/users_controller.rb:57:in `signed_in_user'
+
+
+I, [2014-09-11T13:11:20.954054 #10713]  INFO -- : Started GET "/users" for 127.0.0.1 at 2014-09-11 13:11:20 +0100
+I, [2014-09-11T13:11:20.956236 #10713]  INFO -- : Processing by UsersController#index as HTML
+E, [2014-09-11T13:11:20.959498 #10713] ERROR -- : SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"
+I, [2014-09-11T13:11:20.959869 #10713]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2014-09-11T13:11:20.965485 #10713] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"):
+  app/helpers/sessions_helper.rb:20:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/controllers/users_controller.rb:57:in `signed_in_user'
+
+
+I, [2014-09-11T13:11:22.478875 #10713]  INFO -- : Started GET "/users" for 127.0.0.1 at 2014-09-11 13:11:22 +0100
+I, [2014-09-11T13:11:22.481030 #10713]  INFO -- : Processing by UsersController#index as HTML
+E, [2014-09-11T13:11:22.484170 #10713] ERROR -- : SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"
+I, [2014-09-11T13:11:22.484553 #10713]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2014-09-11T13:11:22.490051 #10713] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"):
+  app/helpers/sessions_helper.rb:20:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/controllers/users_controller.rb:57:in `signed_in_user'
+
+
+E, [2014-09-11T13:11:39.083481 #10790] ERROR -- : SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error: PRAGMA table_info("users")
+E, [2014-09-11T13:12:01.888333 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:02.426280 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:02.663666 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:02.953351 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:03.231909 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:03.562751 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:03.832869 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:04.111966 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:04.343347 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:04.665537 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:04.932953 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:05.269592 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:05.532731 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:05.862716 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:06.123568 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:06.422378 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:06.722376 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:07.034412 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:07.322427 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:07.622349 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:07.922307 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:08.252992 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:08.553558 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:08.834586 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:09.124195 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:09.440333 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:09.723925 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:10.029024 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:10.339611 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:10.653401 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:10.954640 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:11.179207 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:11.403525 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:11.683136 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:11.924836 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:12.203854 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:12.419235 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:12.733104 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:13.004325 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:13.219600 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:13.509109 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:13.815264 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:14.114686 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:14.409118 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:14.733006 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:15.033861 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:15.314801 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:15.609620 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:15.909236 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:16.231774 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:16.505269 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:16.800966 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:17.105896 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:17.434916 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:17.716038 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:18.005378 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:18.305480 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:18.615750 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:18.910612 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:19.190397 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:19.450239 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:19.703811 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:20.012403 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:20.306766 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:20.607325 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:20.922912 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:21.223581 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:21.496812 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:21.796143 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:22.125279 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:22.433581 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:22.696969 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:22.996287 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:23.323012 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:23.592659 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:23.892555 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:24.211922 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:24.525674 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:24.803077 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:25.096995 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:25.403120 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:25.712763 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:25.992677 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:26.292829 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:26.604676 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:27.026903 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:27.304673 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:27.595304 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:27.896533 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:28.225641 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:28.504005 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:28.783724 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:29.084304 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:29.410732 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:29.682911 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:29.994521 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:30.284335 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:30.604094 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:30.874638 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+E, [2014-09-11T13:12:31.117032 #10807] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+I, [2014-09-11T13:12:35.704915 #10713]  INFO -- : Started GET "/users" for 127.0.0.1 at 2014-09-11 13:12:35 +0100
+I, [2014-09-11T13:12:35.707051 #10713]  INFO -- : Processing by UsersController#index as HTML
+E, [2014-09-11T13:12:35.710194 #10713] ERROR -- : SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"
+I, [2014-09-11T13:12:35.710667 #10713]  INFO -- : Completed 500 Internal Server Error in 3ms
+F, [2014-09-11T13:12:35.716146 #10713] FATAL -- : 
+ActiveRecord::StatementInvalid (SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"):
+  app/helpers/sessions_helper.rb:20:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/controllers/users_controller.rb:57:in `signed_in_user'
+
+
+I, [2014-09-11T13:12:40.463307 #10713]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:12:40 +0100
+I, [2014-09-11T13:12:40.468090 #10713]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:12:40.475841 #10713]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.9ms)
+I, [2014-09-11T13:12:40.493186 #10713]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T13:12:40.493423 #10713]  INFO -- :   Rendered layouts/_header.html.erb (15.2ms)
+E, [2014-09-11T13:12:40.497983 #10713] ERROR -- : SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"
+I, [2014-09-11T13:12:40.499203 #10713]  INFO -- :   Rendered layouts/_navigation.html.erb (4.8ms)
+I, [2014-09-11T13:12:40.499466 #10713]  INFO -- : Completed 500 Internal Server Error in 31ms
+F, [2014-09-11T13:12:40.503241 #10713] FATAL -- : 
+ActionView::Template::Error (SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"):
+    14:             <%= nav_link "About",    about_path %>
+    15:             <%= nav_link "Blog",    blog_path %>
+    16:             <%= nav_link "Contact",    contact_path %>
+    17:           <% if signed_in? %>
+    18:             <%= nav_link "Users", users_path %>
+    19:             <li class="dropdown">
+    20:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/helpers/sessions_helper.rb:20:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/views/layouts/_navigation.html.erb:17:in `_app_views_layouts__navigation_html_erb___3913490579633376274_69994814984280'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___2002983754233314495_40052260'
+
+
+I, [2014-09-11T13:12:40.512600 #10713]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:12:40 +0100
+I, [2014-09-11T13:12:40.516102 #10713]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:12:40.519573 #10713]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.2ms)
+I, [2014-09-11T13:12:40.524059 #10713]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:12:40.524271 #10713]  INFO -- :   Rendered layouts/_header.html.erb (3.6ms)
+E, [2014-09-11T13:12:40.528694 #10713] ERROR -- : SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"
+I, [2014-09-11T13:12:40.529671 #10713]  INFO -- :   Rendered layouts/_navigation.html.erb (4.5ms)
+I, [2014-09-11T13:12:40.529913 #10713]  INFO -- : Completed 500 Internal Server Error in 14ms
+F, [2014-09-11T13:12:40.533700 #10713] FATAL -- : 
+ActionView::Template::Error (SQLite3::CorruptException: malformed database schema (Clovis Fadel) - near "2014": syntax error:           SELECT name
+          FROM sqlite_master
+          WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+ AND name = "users"):
+    14:             <%= nav_link "About",    about_path %>
+    15:             <%= nav_link "Blog",    blog_path %>
+    16:             <%= nav_link "Contact",    contact_path %>
+    17:           <% if signed_in? %>
+    18:             <%= nav_link "Users", users_path %>
+    19:             <li class="dropdown">
+    20:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/helpers/sessions_helper.rb:20:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/views/layouts/_navigation.html.erb:17:in `_app_views_layouts__navigation_html_erb___3913490579633376274_69994815351040'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___2002983754233314495_40052260'
+
+
+I, [2014-09-11T13:13:02.475335 #11067]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:13:02 +0100
+I, [2014-09-11T13:13:02.496868 #11067]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:13:02.532844 #11067]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.0ms)
+I, [2014-09-11T13:13:02.552519 #11067]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:13:02.552729 #11067]  INFO -- :   Rendered layouts/_header.html.erb (17.5ms)
+I, [2014-09-11T13:13:02.562665 #11067]  INFO -- :   Rendered layouts/_navigation.html.erb (9.0ms)
+I, [2014-09-11T13:13:02.564471 #11067]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:13:02.566455 #11067]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:13:02.581392 #11067]  INFO -- : Completed 200 OK in 84ms (Views: 52.2ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:13:02.641319 #11067]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:13:02 +0100
+I, [2014-09-11T13:13:02.701086 #11067]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:13:02 +0100
+I, [2014-09-11T13:13:02.714502 #11076]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:13:02 +0100
+I, [2014-09-11T13:13:02.754360 #11076]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:02 +0100
+I, [2014-09-11T13:13:05.146366 #11076]  INFO -- : Started GET "/about" for 127.0.0.1 at 2014-09-11 13:13:05 +0100
+I, [2014-09-11T13:13:05.152433 #11076]  INFO -- : Processing by MainController#about as HTML
+I, [2014-09-11T13:13:05.187649 #11076]  INFO -- :   Rendered main/about.html.erb within layouts/application (1.2ms)
+I, [2014-09-11T13:13:05.205328 #11076]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T13:13:05.205556 #11076]  INFO -- :   Rendered layouts/_header.html.erb (15.3ms)
+I, [2014-09-11T13:13:05.215787 #11076]  INFO -- :   Rendered layouts/_navigation.html.erb (9.2ms)
+I, [2014-09-11T13:13:05.217717 #11076]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:13:05.219748 #11076]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:13:05.220894 #11076]  INFO -- : Completed 200 OK in 68ms (Views: 36.3ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:13:05.267025 #11076]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:05 +0100
+I, [2014-09-11T13:13:06.597694 #11076]  INFO -- : Started GET "/signin" for 127.0.0.1 at 2014-09-11 13:13:06 +0100
+I, [2014-09-11T13:13:06.601804 #11076]  INFO -- : Processing by SessionsController#new as HTML
+I, [2014-09-11T13:13:06.916545 #11076]  INFO -- :   Rendered sessions/new.html.erb within layouts/application (311.2ms)
+I, [2014-09-11T13:13:06.918072 #11076]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:13:06.918224 #11076]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T13:13:06.920782 #11076]  INFO -- :   Rendered layouts/_navigation.html.erb (2.3ms)
+I, [2014-09-11T13:13:06.921213 #11076]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:13:06.921675 #11076]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T13:13:06.922510 #11076]  INFO -- : Completed 200 OK in 320ms (Views: 318.7ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:13:06.973125 #11076]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:06 +0100
+I, [2014-09-11T13:13:08.473755 #11076]  INFO -- : Started GET "/signup" for 127.0.0.1 at 2014-09-11 13:13:08 +0100
+I, [2014-09-11T13:13:08.476326 #11076]  INFO -- : Processing by UsersController#new as HTML
+I, [2014-09-11T13:13:08.495017 #11076]  INFO -- :   Rendered shared/_error_messages.html.erb (0.8ms)
+I, [2014-09-11T13:13:08.498731 #11076]  INFO -- :   Rendered users/new.html.erb within layouts/application (17.9ms)
+I, [2014-09-11T13:13:08.500140 #11076]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:13:08.500282 #11076]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T13:13:08.502951 #11076]  INFO -- :   Rendered layouts/_navigation.html.erb (2.5ms)
+I, [2014-09-11T13:13:08.503403 #11076]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:13:08.503850 #11076]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:13:08.504687 #11076]  INFO -- : Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.5ms)
+I, [2014-09-11T13:13:08.544105 #11076]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:08 +0100
+I, [2014-09-11T13:13:16.353303 #11076]  INFO -- : Started POST "/users" for 127.0.0.1 at 2014-09-11 13:13:16 +0100
+I, [2014-09-11T13:13:16.356214 #11076]  INFO -- : Processing by UsersController#create as HTML
+I, [2014-09-11T13:13:16.356366 #11076]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"FRfPbPhVXJY/VV0lLu34l56TATTbW0H5mjbok61bsXY=", "user"=>{"name"=>"Alex Scott", "email"=>"alex.scott@tipsforthings.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+E, [2014-09-11T13:13:16.519147 #11076] ERROR -- : Binary data inserted for `string` type on column `password_digest`
+I, [2014-09-11T13:13:16.709193 #11076]  INFO -- : Redirected to http://trackmymixes/users/101
+I, [2014-09-11T13:13:16.709841 #11076]  INFO -- : Completed 302 Found in 353ms (ActiveRecord: 184.5ms)
+I, [2014-09-11T13:13:16.768595 #11076]  INFO -- : Started GET "/users/101" for 127.0.0.1 at 2014-09-11 13:13:16 +0100
+I, [2014-09-11T13:13:16.770358 #11076]  INFO -- : Processing by UsersController#show as HTML
+I, [2014-09-11T13:13:16.770507 #11076]  INFO -- :   Parameters: {"id"=>"101"}
+I, [2014-09-11T13:13:16.776226 #11076]  INFO -- :   Rendered users/show.html.erb within layouts/application (1.2ms)
+I, [2014-09-11T13:13:16.780623 #11076]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:13:16.780833 #11076]  INFO -- :   Rendered layouts/_header.html.erb (3.5ms)
+I, [2014-09-11T13:13:16.786471 #11076]  INFO -- :   Rendered layouts/_navigation.html.erb (4.7ms)
+I, [2014-09-11T13:13:16.788186 #11076]  INFO -- :   Rendered layouts/_social.html.erb (0.5ms)
+I, [2014-09-11T13:13:16.789999 #11076]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2014-09-11T13:13:16.791015 #11076]  INFO -- : Completed 200 OK in 20ms (Views: 16.9ms | ActiveRecord: 0.6ms)
+I, [2014-09-11T13:13:16.827919 #11067]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:13:16 +0100
+I, [2014-09-11T13:13:16.828319 #11076]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:13:16 +0100
+I, [2014-09-11T13:13:16.835408 #11083]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:13:16 +0100
+I, [2014-09-11T13:13:16.868635 #11083]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:16 +0100
+I, [2014-09-11T13:13:18.390959 #11083]  INFO -- : Started GET "/users" for 127.0.0.1 at 2014-09-11 13:13:18 +0100
+I, [2014-09-11T13:13:18.399335 #11083]  INFO -- : Processing by UsersController#index as HTML
+I, [2014-09-11T13:13:18.785783 #11083]  INFO -- :   Rendered users/_user.html.erb (55.9ms)
+I, [2014-09-11T13:13:18.788126 #11083]  INFO -- :   Rendered users/index.html.erb within layouts/application (334.5ms)
+I, [2014-09-11T13:13:18.804161 #11083]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T13:13:18.804374 #11083]  INFO -- :   Rendered layouts/_header.html.erb (14.0ms)
+I, [2014-09-11T13:13:18.808488 #11083]  INFO -- :   Rendered layouts/_navigation.html.erb (3.1ms)
+I, [2014-09-11T13:13:18.810408 #11083]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:13:18.812402 #11083]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2014-09-11T13:13:18.813477 #11083]  INFO -- : Completed 200 OK in 414ms (Views: 361.9ms | ActiveRecord: 2.3ms)
+I, [2014-09-11T13:13:18.959195 #11083]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:18 +0100
+I, [2014-09-11T13:13:21.563936 #11083]  INFO -- : Started GET "/users?page=2" for 127.0.0.1 at 2014-09-11 13:13:21 +0100
+I, [2014-09-11T13:13:21.566566 #11083]  INFO -- : Processing by UsersController#index as HTML
+I, [2014-09-11T13:13:21.566683 #11083]  INFO -- :   Parameters: {"page"=>"2"}
+I, [2014-09-11T13:13:21.587770 #11083]  INFO -- :   Rendered users/_user.html.erb (10.7ms)
+I, [2014-09-11T13:13:21.590068 #11083]  INFO -- :   Rendered users/index.html.erb within layouts/application (20.1ms)
+I, [2014-09-11T13:13:21.591418 #11083]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:13:21.591566 #11083]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T13:13:21.593547 #11083]  INFO -- :   Rendered layouts/_navigation.html.erb (1.8ms)
+I, [2014-09-11T13:13:21.593944 #11083]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:13:21.594395 #11083]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T13:13:21.595321 #11083]  INFO -- : Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 1.0ms)
+I, [2014-09-11T13:13:21.719963 #11083]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:21 +0100
+I, [2014-09-11T13:13:22.226433 #11083]  INFO -- : Started GET "/users?page=3" for 127.0.0.1 at 2014-09-11 13:13:22 +0100
+I, [2014-09-11T13:13:22.228016 #11083]  INFO -- : Processing by UsersController#index as HTML
+I, [2014-09-11T13:13:22.228135 #11083]  INFO -- :   Parameters: {"page"=>"3"}
+I, [2014-09-11T13:13:22.251982 #11083]  INFO -- :   Rendered users/_user.html.erb (12.9ms)
+I, [2014-09-11T13:13:22.254315 #11083]  INFO -- :   Rendered users/index.html.erb within layouts/application (22.7ms)
+I, [2014-09-11T13:13:22.255848 #11083]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:13:22.256027 #11083]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+I, [2014-09-11T13:13:22.258224 #11083]  INFO -- :   Rendered layouts/_navigation.html.erb (1.9ms)
+I, [2014-09-11T13:13:22.258711 #11083]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:13:22.259289 #11083]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T13:13:22.260358 #11083]  INFO -- : Completed 200 OK in 32ms (Views: 28.5ms | ActiveRecord: 1.1ms)
+I, [2014-09-11T13:13:22.439025 #11083]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:22 +0100
+I, [2014-09-11T13:13:22.445740 #11083]  INFO -- : Started GET "/users?page=4" for 127.0.0.1 at 2014-09-11 13:13:22 +0100
+I, [2014-09-11T13:13:22.447338 #11083]  INFO -- : Processing by UsersController#index as HTML
+I, [2014-09-11T13:13:22.447448 #11083]  INFO -- :   Parameters: {"page"=>"4"}
+I, [2014-09-11T13:13:22.460643 #11083]  INFO -- :   Rendered users/_user.html.erb (4.6ms)
+I, [2014-09-11T13:13:22.462733 #11083]  INFO -- :   Rendered users/index.html.erb within layouts/application (12.3ms)
+I, [2014-09-11T13:13:22.464298 #11083]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:13:22.464474 #11083]  INFO -- :   Rendered layouts/_header.html.erb (1.4ms)
+I, [2014-09-11T13:13:22.466533 #11083]  INFO -- :   Rendered layouts/_navigation.html.erb (1.8ms)
+I, [2014-09-11T13:13:22.467010 #11083]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:13:22.467513 #11083]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T13:13:22.468454 #11083]  INFO -- : Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 0.8ms)
+I, [2014-09-11T13:13:22.585711 #11083]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:22 +0100
+I, [2014-09-11T13:13:27.224319 #11083]  INFO -- : Started GET "/users/101" for 127.0.0.1 at 2014-09-11 13:13:27 +0100
+I, [2014-09-11T13:13:27.226381 #11083]  INFO -- : Processing by UsersController#show as HTML
+I, [2014-09-11T13:13:27.226535 #11083]  INFO -- :   Parameters: {"id"=>"101"}
+I, [2014-09-11T13:13:27.231811 #11083]  INFO -- :   Rendered users/show.html.erb within layouts/application (1.1ms)
+I, [2014-09-11T13:13:27.233242 #11083]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:13:27.233388 #11083]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T13:13:27.236956 #11083]  INFO -- :   Rendered layouts/_navigation.html.erb (3.3ms)
+I, [2014-09-11T13:13:27.237415 #11083]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:13:27.238039 #11083]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2014-09-11T13:13:27.238880 #11083]  INFO -- : Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.7ms)
+I, [2014-09-11T13:13:27.300141 #11083]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:27 +0100
+I, [2014-09-11T13:13:29.320906 #11083]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:13:29 +0100
+I, [2014-09-11T13:13:29.324801 #11083]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:13:29.329233 #11083]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.1ms)
+I, [2014-09-11T13:13:29.330839 #11083]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:13:29.330990 #11083]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+I, [2014-09-11T13:13:29.334400 #11083]  INFO -- :   Rendered layouts/_navigation.html.erb (3.2ms)
+I, [2014-09-11T13:13:29.334860 #11083]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:13:29.335290 #11083]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:13:29.336179 #11083]  INFO -- : Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:13:29.376651 #11083]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:13:29 +0100
+I, [2014-09-11T13:19:56.066012 #11606]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:19:56 +0100
+I, [2014-09-11T13:19:56.084827 #11606]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:19:56.120813 #11606]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.1ms)
+W, [2014-09-11T13:19:56.397451 #11606]  WARN -- : WARNING on line 532 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T13:19:56.397645 #11606]  WARN -- : WARNING on line 533 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T13:20:00.331960 #11606]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T13:20:00.332165 #11606]  INFO -- :   Rendered layouts/_header.html.erb (4209.0ms)
+I, [2014-09-11T13:20:00.353489 #11606]  INFO -- :   Rendered layouts/_navigation.html.erb (20.4ms)
+I, [2014-09-11T13:20:00.355203 #11606]  INFO -- :   Rendered layouts/_social.html.erb (0.5ms)
+I, [2014-09-11T13:20:00.357031 #11606]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2014-09-11T13:20:05.687774 #11606]  INFO -- : Completed 200 OK in 9603ms (Views: 9570.6ms | ActiveRecord: 1.3ms)
+I, [2014-09-11T13:20:05.762637 #11606]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:20:05 +0100
+I, [2014-09-11T13:20:05.801022 #11606]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:20:05 +0100
+I, [2014-09-11T13:20:05.822883 #11639]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:20:05 +0100
+I, [2014-09-11T13:20:05.990234 #11639]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:20:05 +0100
+I, [2014-09-11T13:20:11.026853 #11639]  INFO -- : Started DELETE "/signout" for 127.0.0.1 at 2014-09-11 13:20:11 +0100
+I, [2014-09-11T13:20:11.030683 #11639]  INFO -- : Processing by SessionsController#destroy as HTML
+I, [2014-09-11T13:20:11.030832 #11639]  INFO -- :   Parameters: {"authenticity_token"=>"FRfPbPhVXJY/VV0lLu34l56TATTbW0H5mjbok61bsXY="}
+I, [2014-09-11T13:20:11.168818 #11639]  INFO -- : Redirected to http://trackmymixes/
+I, [2014-09-11T13:20:11.169591 #11639]  INFO -- : Completed 302 Found in 138ms (ActiveRecord: 85.4ms)
+I, [2014-09-11T13:20:11.224621 #11639]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:20:11 +0100
+I, [2014-09-11T13:20:11.229261 #11639]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:20:11.235808 #11639]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.7ms)
+I, [2014-09-11T13:20:11.251599 #11639]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:20:11.251807 #11639]  INFO -- :   Rendered layouts/_header.html.erb (13.7ms)
+I, [2014-09-11T13:20:11.255883 #11639]  INFO -- :   Rendered layouts/_navigation.html.erb (3.2ms)
+I, [2014-09-11T13:20:11.257623 #11639]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:20:11.259486 #11639]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2014-09-11T13:20:11.260543 #11639]  INFO -- : Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:20:11.295842 #11606]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:20:11 +0100
+I, [2014-09-11T13:20:11.297722 #11606]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:20:11 +0100
+I, [2014-09-11T13:20:11.301184 #11639]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:20:11 +0100
+I, [2014-09-11T13:20:11.316415 #11639]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:20:11 +0100
+I, [2014-09-11T13:21:23.806773 #11639]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:21:23 +0100
+I, [2014-09-11T13:21:23.809490 #11639]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:21:23.811802 #11639]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.3ms)
+I, [2014-09-11T13:21:23.813171 #11639]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:21:23.813341 #11639]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T13:21:23.815396 #11639]  INFO -- :   Rendered layouts/_navigation.html.erb (1.8ms)
+I, [2014-09-11T13:21:23.815812 #11639]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:21:23.816268 #11639]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:21:23.817004 #11639]  INFO -- : Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:21:23.849727 #11606]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:21:23 +0100
+I, [2014-09-11T13:21:23.851546 #11639]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:21:23 +0100
+I, [2014-09-11T13:21:23.856771 #11649]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:21:23 +0100
+I, [2014-09-11T13:21:23.912618 #11649]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:21:23 +0100
+I, [2014-09-11T13:21:24.032873 #11649]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:21:24 +0100
+I, [2014-09-11T13:21:25.928239 #11649]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:21:25 +0100
+I, [2014-09-11T13:21:25.933053 #11649]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:21:25.969653 #11649]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.1ms)
+I, [2014-09-11T13:21:25.987445 #11649]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:21:25.987665 #11649]  INFO -- :   Rendered layouts/_header.html.erb (15.5ms)
+I, [2014-09-11T13:21:25.997466 #11649]  INFO -- :   Rendered layouts/_navigation.html.erb (8.7ms)
+I, [2014-09-11T13:21:25.999405 #11649]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:21:26.001546 #11649]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:21:26.002688 #11649]  INFO -- : Completed 200 OK in 69ms (Views: 36.9ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:21:38.224432 #11863]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:21:38 +0100
+I, [2014-09-11T13:21:38.244041 #11863]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:21:38.280265 #11863]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.3ms)
+I, [2014-09-11T13:21:38.300581 #11863]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:21:38.300794 #11863]  INFO -- :   Rendered layouts/_header.html.erb (18.0ms)
+I, [2014-09-11T13:21:38.310435 #11863]  INFO -- :   Rendered layouts/_navigation.html.erb (8.7ms)
+I, [2014-09-11T13:21:38.312268 #11863]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:21:38.314208 #11863]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:21:38.329240 #11863]  INFO -- : Completed 200 OK in 85ms (Views: 53.0ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:21:38.440767 #11863]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:21:38 +0100
+I, [2014-09-11T13:21:38.496824 #11863]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:21:38 +0100
+I, [2014-09-11T13:21:38.500861 #11863]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:21:38 +0100
+I, [2014-09-11T13:21:38.508098 #11863]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:21:38 +0100
+I, [2014-09-11T13:21:38.723126 #11863]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:21:38 +0100
+I, [2014-09-11T13:22:21.502085 #11863]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:22:21 +0100
+I, [2014-09-11T13:22:21.506745 #11863]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:22:21.510498 #11863]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.1ms)
+I, [2014-09-11T13:22:21.511940 #11863]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:22:21.512106 #11863]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+I, [2014-09-11T13:22:21.514299 #11863]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T13:22:21.514768 #11863]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:22:21.515298 #11863]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T13:22:21.516209 #11863]  INFO -- : Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:22:21.551083 #11863]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:22:21 +0100
+I, [2014-09-11T13:22:21.556314 #11863]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:22:21 +0100
+I, [2014-09-11T13:22:21.563490 #11871]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:22:21 +0100
+I, [2014-09-11T13:22:21.611868 #11871]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:22:21 +0100
+I, [2014-09-11T13:22:21.704208 #11871]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:22:21 +0100
+I, [2014-09-11T13:22:23.363642 #11871]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:22:23 +0100
+I, [2014-09-11T13:22:23.370540 #11871]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:22:23.407363 #11871]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.1ms)
+I, [2014-09-11T13:22:23.424738 #11871]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:22:23.424946 #11871]  INFO -- :   Rendered layouts/_header.html.erb (15.3ms)
+I, [2014-09-11T13:22:23.434452 #11871]  INFO -- :   Rendered layouts/_navigation.html.erb (8.6ms)
+I, [2014-09-11T13:22:23.436224 #11871]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:22:23.438080 #11871]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:22:23.439229 #11871]  INFO -- : Completed 200 OK in 68ms (Views: 35.5ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:22:23.473236 #11871]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:22:23 +0100
+I, [2014-09-11T13:22:23.476335 #11863]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:22:23 +0100
+I, [2014-09-11T13:22:23.477719 #11863]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:22:23 +0100
+I, [2014-09-11T13:22:23.540076 #11871]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:22:23 +0100
+I, [2014-09-11T13:22:23.664249 #11871]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:22:23 +0100
+I, [2014-09-11T13:22:40.857488 #11871]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:22:40 +0100
+I, [2014-09-11T13:22:40.860011 #11871]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:22:40.862149 #11871]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.5ms)
+I, [2014-09-11T13:22:40.863595 #11871]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:22:40.863764 #11871]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+I, [2014-09-11T13:22:40.865948 #11871]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T13:22:40.866381 #11871]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:22:40.866817 #11871]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:22:40.867629 #11871]  INFO -- : Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:22:40.945167 #11871]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:22:40 +0100
+I, [2014-09-11T13:22:40.947612 #11863]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:22:40 +0100
+I, [2014-09-11T13:22:40.952158 #11925]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:22:40 +0100
+I, [2014-09-11T13:22:40.978544 #11925]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:22:40 +0100
+I, [2014-09-11T13:22:42.855124 #11925]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:22:42 +0100
+I, [2014-09-11T13:22:42.861458 #11925]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:22:42.897278 #11925]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.1ms)
+I, [2014-09-11T13:22:42.914531 #11925]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:22:42.914737 #11925]  INFO -- :   Rendered layouts/_header.html.erb (15.2ms)
+I, [2014-09-11T13:22:42.924366 #11925]  INFO -- :   Rendered layouts/_navigation.html.erb (8.7ms)
+I, [2014-09-11T13:22:42.926149 #11925]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:22:42.928069 #11925]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:22:42.929175 #11925]  INFO -- : Completed 200 OK in 67ms (Views: 35.5ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:22:42.965169 #11863]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:22:42 +0100
+I, [2014-09-11T13:22:42.965923 #11925]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:22:42 +0100
+I, [2014-09-11T13:22:42.966895 #11871]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:22:42 +0100
+I, [2014-09-11T13:22:43.020006 #11925]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:22:43 +0100
+I, [2014-09-11T13:22:43.221011 #11925]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:22:43 +0100
+I, [2014-09-11T13:22:55.270447 #11925]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:22:55 +0100
+I, [2014-09-11T13:22:55.274582 #11925]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:22:55.276702 #11925]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.5ms)
+I, [2014-09-11T13:22:55.278285 #11925]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:22:55.278476 #11925]  INFO -- :   Rendered layouts/_header.html.erb (1.4ms)
+I, [2014-09-11T13:22:55.280898 #11925]  INFO -- :   Rendered layouts/_navigation.html.erb (2.2ms)
+I, [2014-09-11T13:22:55.281359 #11925]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:22:55.281773 #11925]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:22:55.282513 #11925]  INFO -- : Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:22:55.312385 #11863]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:22:55 +0100
+I, [2014-09-11T13:22:55.312728 #11871]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:22:55 +0100
+I, [2014-09-11T13:22:55.313528 #11925]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:22:55 +0100
+I, [2014-09-11T13:22:55.370084 #11925]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:22:55 +0100
+I, [2014-09-11T13:22:55.524965 #11925]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:22:55 +0100
+I, [2014-09-11T13:22:57.440228 #11925]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:22:57 +0100
+I, [2014-09-11T13:22:57.442169 #11925]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:22:57.444905 #11925]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.7ms)
+I, [2014-09-11T13:22:57.446114 #11925]  INFO -- :   Rendered layouts/_shim.html.erb (0.0ms)
+I, [2014-09-11T13:22:57.446251 #11925]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T13:22:57.447853 #11925]  INFO -- :   Rendered layouts/_navigation.html.erb (1.4ms)
+I, [2014-09-11T13:22:57.448193 #11925]  INFO -- :   Rendered layouts/_social.html.erb (0.0ms)
+I, [2014-09-11T13:22:57.448612 #11925]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:22:57.449303 #11925]  INFO -- : Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T13:22:57.495084 #11925]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:22:57 +0100
+I, [2014-09-11T13:22:57.496162 #11863]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:22:57 +0100
+I, [2014-09-11T13:22:57.498519 #11871]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:22:57 +0100
+I, [2014-09-11T13:22:57.545187 #11925]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:22:57 +0100
+I, [2014-09-11T13:22:57.639176 #11925]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:22:57 +0100
+I, [2014-09-11T13:22:58.408528 #11925]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:22:58 +0100
+I, [2014-09-11T13:22:58.409914 #11925]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:22:58.411703 #11925]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T13:22:58.412886 #11925]  INFO -- :   Rendered layouts/_shim.html.erb (0.0ms)
+I, [2014-09-11T13:22:58.413022 #11925]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T13:22:58.414595 #11925]  INFO -- :   Rendered layouts/_navigation.html.erb (1.4ms)
+I, [2014-09-11T13:22:58.414937 #11925]  INFO -- :   Rendered layouts/_social.html.erb (0.0ms)
+I, [2014-09-11T13:22:58.415372 #11925]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:22:58.416065 #11925]  INFO -- : Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T13:22:58.452292 #11863]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:22:58 +0100
+I, [2014-09-11T13:22:58.452504 #11871]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:22:58 +0100
+I, [2014-09-11T13:22:58.454429 #11925]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:22:58 +0100
+I, [2014-09-11T13:22:58.506909 #11925]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:22:58 +0100
+I, [2014-09-11T13:22:58.605678 #11925]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:22:58 +0100
+I, [2014-09-11T13:23:20.937033 #12138]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:23:20 +0100
+I, [2014-09-11T13:23:20.957846 #12138]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:23:20.993833 #12138]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.3ms)
+I, [2014-09-11T13:23:21.015830 #12138]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:23:21.016054 #12138]  INFO -- :   Rendered layouts/_header.html.erb (19.9ms)
+I, [2014-09-11T13:23:21.025797 #12138]  INFO -- :   Rendered layouts/_navigation.html.erb (8.6ms)
+I, [2014-09-11T13:23:21.027652 #12138]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:23:21.029665 #12138]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:23:21.044593 #12138]  INFO -- : Completed 200 OK in 86ms (Views: 54.8ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:23:21.126155 #12138]  INFO -- : Started GET "/assets/application-f73bd037a329306049bdd9360341234f.css" for 127.0.0.1 at 2014-09-11 13:23:21 +0100
+I, [2014-09-11T13:23:21.191456 #12138]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:23:21 +0100
+I, [2014-09-11T13:23:21.210250 #12148]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:23:21 +0100
+I, [2014-09-11T13:23:21.242982 #12148]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:23:21 +0100
+I, [2014-09-11T13:23:21.401516 #12148]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:23:21 +0100
+I, [2014-09-11T13:25:04.701593 #12148]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:25:04 +0100
+I, [2014-09-11T13:25:04.705902 #12148]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:25:04.741872 #12148]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.2ms)
+W, [2014-09-11T13:25:05.002065 #12148]  WARN -- : WARNING on line 542 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T13:25:05.002294 #12148]  WARN -- : WARNING on line 543 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T13:25:09.107928 #12148]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T13:25:09.108127 #12148]  INFO -- :   Rendered layouts/_header.html.erb (4364.0ms)
+I, [2014-09-11T13:25:09.116672 #12148]  INFO -- :   Rendered layouts/_navigation.html.erb (7.6ms)
+I, [2014-09-11T13:25:09.118431 #12148]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:25:09.120323 #12148]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2014-09-11T13:25:09.121444 #12148]  INFO -- : Completed 200 OK in 4415ms (Views: 4383.3ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:25:09.198123 #12138]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:25:09 +0100
+I, [2014-09-11T13:25:09.200263 #12148]  INFO -- : Started GET "/assets/application-bfc7660b38f5f4704863168a84048c68.css" for 127.0.0.1 at 2014-09-11 13:25:09 +0100
+I, [2014-09-11T13:25:09.200886 #12155]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:25:09 +0100
+I, [2014-09-11T13:25:09.230846 #12155]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:25:09 +0100
+I, [2014-09-11T13:25:09.372134 #12155]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:25:09 +0100
+I, [2014-09-11T13:25:55.965500 #12155]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:25:55 +0100
+I, [2014-09-11T13:25:55.969811 #12155]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:25:56.005999 #12155]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.2ms)
+W, [2014-09-11T13:25:56.267909 #12155]  WARN -- : WARNING on line 542 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T13:25:56.268099 #12155]  WARN -- : WARNING on line 543 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T13:26:00.325511 #12155]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T13:26:00.325715 #12155]  INFO -- :   Rendered layouts/_header.html.erb (4317.4ms)
+I, [2014-09-11T13:26:00.334398 #12155]  INFO -- :   Rendered layouts/_navigation.html.erb (7.8ms)
+I, [2014-09-11T13:26:00.336115 #12155]  INFO -- :   Rendered layouts/_social.html.erb (0.5ms)
+I, [2014-09-11T13:26:00.337947 #12155]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2014-09-11T13:26:00.339069 #12155]  INFO -- : Completed 200 OK in 4369ms (Views: 4337.2ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:26:00.413927 #12155]  INFO -- : Started GET "/assets/application-8831096a8acfa4e2df6aba6c04800645.css" for 127.0.0.1 at 2014-09-11 13:26:00 +0100
+I, [2014-09-11T13:26:00.415600 #12138]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:26:00 +0100
+I, [2014-09-11T13:26:00.418033 #12148]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:26:00 +0100
+I, [2014-09-11T13:26:00.611429 #12148]  INFO -- : Started GET "/assets/application-9b12845984041cf2d95c46d240b54273.js" for 127.0.0.1 at 2014-09-11 13:26:00 +0100
+I, [2014-09-11T13:26:00.725277 #12148]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:26:00 +0100
+I, [2014-09-11T13:26:58.297753 #12442]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:26:58 +0100
+I, [2014-09-11T13:26:58.318175 #12442]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:26:58.354452 #12442]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.4ms)
+I, [2014-09-11T13:26:58.360242 #12442]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T13:26:58.360505 #12442]  INFO -- :   Rendered layouts/_header.html.erb (3.6ms)
+I, [2014-09-11T13:26:58.370048 #12442]  INFO -- :   Rendered layouts/_navigation.html.erb (8.6ms)
+I, [2014-09-11T13:26:58.371955 #12442]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:26:58.373995 #12442]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:26:58.374901 #12442]  INFO -- : Completed 200 OK in 56ms (Views: 24.6ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:26:58.451183 #12442]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:26:58 +0100
+I, [2014-09-11T13:26:58.458529 #12442]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:26:58 +0100
+I, [2014-09-11T13:26:58.784955 #12442]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:26:58 +0100
+I, [2014-09-11T13:27:27.806069 #12442]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:27:27 +0100
+I, [2014-09-11T13:27:27.808730 #12442]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:27:27.810992 #12442]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.6ms)
+I, [2014-09-11T13:27:27.812353 #12442]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:27:27.812560 #12442]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T13:27:27.814941 #12442]  INFO -- :   Rendered layouts/_navigation.html.erb (2.1ms)
+I, [2014-09-11T13:27:27.815495 #12442]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:27:27.816009 #12442]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T13:27:27.816735 #12442]  INFO -- : Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:27:27.852917 #12450]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:27:27 +0100
+I, [2014-09-11T13:27:27.854873 #12442]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:27:27 +0100
+W, [2014-09-11T13:27:28.095906 #12450]  WARN -- : WARNING on line 542 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T13:27:28.096100 #12450]  WARN -- : WARNING on line 543 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T13:27:28.408092 #12450]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:27:28 +0100
+I, [2014-09-11T13:28:28.331345 #12450]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:28:28 +0100
+I, [2014-09-11T13:28:28.337364 #12450]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:28:28.373431 #12450]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.9ms)
+I, [2014-09-11T13:28:28.378854 #12450]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T13:28:28.379048 #12450]  INFO -- :   Rendered layouts/_header.html.erb (3.4ms)
+I, [2014-09-11T13:28:28.388029 #12450]  INFO -- :   Rendered layouts/_navigation.html.erb (8.1ms)
+I, [2014-09-11T13:28:28.389823 #12450]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:28:28.391748 #12450]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:28:28.392623 #12450]  INFO -- : Completed 200 OK in 55ms (Views: 22.3ms | ActiveRecord: 1.5ms)
+I, [2014-09-11T13:28:28.428388 #12450]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:28:28 +0100
+I, [2014-09-11T13:28:28.430642 #12442]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:28:28 +0100
+I, [2014-09-11T13:28:28.608941 #12450]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:28:28 +0100
+I, [2014-09-11T13:29:16.729963 #12690]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:29:16 +0100
+I, [2014-09-11T13:29:16.762754 #12690]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:29:16.848288 #12690]  INFO -- :   Rendered main/home.html.erb within layouts/application (7.6ms)
+I, [2014-09-11T13:29:16.854885 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.7ms)
+I, [2014-09-11T13:29:16.855139 #12690]  INFO -- :   Rendered layouts/_header.html.erb (4.2ms)
+I, [2014-09-11T13:29:16.878764 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (22.5ms)
+I, [2014-09-11T13:29:16.885953 #12690]  INFO -- :   Rendered layouts/_social.html.erb (5.7ms)
+I, [2014-09-11T13:29:16.889015 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (1.2ms)
+I, [2014-09-11T13:29:16.890121 #12690]  INFO -- : Completed 200 OK in 127ms (Views: 54.5ms | ActiveRecord: 4.5ms)
+I, [2014-09-11T13:29:17.092936 #12690]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:29:17 +0100
+I, [2014-09-11T13:29:17.103043 #12690]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:29:17 +0100
+W, [2014-09-11T13:29:17.379457 #12690]  WARN -- : WARNING on line 542 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T13:29:17.379651 #12690]  WARN -- : WARNING on line 543 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T13:29:17.663930 #12690]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:29:17 +0100
+I, [2014-09-11T13:29:32.668548 #12690]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:29:32 +0100
+I, [2014-09-11T13:29:32.673059 #12690]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:29:32.676899 #12690]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.0ms)
+I, [2014-09-11T13:29:32.679224 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:29:32.679505 #12690]  INFO -- :   Rendered layouts/_header.html.erb (2.0ms)
+I, [2014-09-11T13:29:32.682127 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (2.2ms)
+I, [2014-09-11T13:29:32.682624 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:29:32.683061 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:29:32.683727 #12690]  INFO -- : Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:29:32.720687 #12690]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:29:32 +0100
+I, [2014-09-11T13:29:32.725698 #12700]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:29:32 +0100
+W, [2014-09-11T13:29:32.964999 #12700]  WARN -- : WARNING on line 542 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T13:29:32.965204 #12700]  WARN -- : WARNING on line 543 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T13:29:33.281704 #12700]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:29:33 +0100
+I, [2014-09-11T13:29:57.713435 #12700]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:29:57 +0100
+I, [2014-09-11T13:29:57.718572 #12700]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:29:57.754129 #12700]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.9ms)
+I, [2014-09-11T13:29:57.759479 #12700]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T13:29:57.759672 #12700]  INFO -- :   Rendered layouts/_header.html.erb (3.4ms)
+I, [2014-09-11T13:29:57.768353 #12700]  INFO -- :   Rendered layouts/_navigation.html.erb (7.7ms)
+I, [2014-09-11T13:29:57.770299 #12700]  INFO -- :   Rendered layouts/_social.html.erb (0.6ms)
+I, [2014-09-11T13:29:57.772240 #12700]  INFO -- :   Rendered layouts/_footer.html.erb (1.0ms)
+I, [2014-09-11T13:29:57.773126 #12700]  INFO -- : Completed 200 OK in 54ms (Views: 22.2ms | ActiveRecord: 1.2ms)
+I, [2014-09-11T13:29:57.804262 #12690]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:29:57 +0100
+I, [2014-09-11T13:29:57.804378 #12700]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:29:57 +0100
+I, [2014-09-11T13:29:58.001835 #12700]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:29:58 +0100
+I, [2014-09-11T13:30:00.217423 #12700]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:30:00 +0100
+I, [2014-09-11T13:30:00.219762 #12700]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:30:00.221653 #12700]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T13:30:00.222848 #12700]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:30:00.223005 #12700]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T13:30:00.225259 #12700]  INFO -- :   Rendered layouts/_navigation.html.erb (2.0ms)
+I, [2014-09-11T13:30:00.225766 #12700]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:30:00.226224 #12700]  INFO -- :   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2014-09-11T13:30:00.226776 #12700]  INFO -- : Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:30:00.268378 #12700]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 13:30:00 +0100
+I, [2014-09-11T13:30:00.268895 #12690]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 13:30:00 +0100
+I, [2014-09-11T13:30:00.456088 #12690]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 13:30:00 +0100
+I, [2014-09-11T13:30:06.836829 #12690]  INFO -- : Started GET "/contact" for 127.0.0.1 at 2014-09-11 13:30:06 +0100
+I, [2014-09-11T13:30:06.841575 #12690]  INFO -- : Processing by ContactsController#new as HTML
+I, [2014-09-11T13:30:07.169893 #12690]  INFO -- :   Rendered contacts/new.html.erb within layouts/application (321.9ms)
+I, [2014-09-11T13:30:07.174040 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-09-11T13:30:07.174247 #12690]  INFO -- :   Rendered layouts/_header.html.erb (3.1ms)
+I, [2014-09-11T13:30:07.178183 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (3.0ms)
+I, [2014-09-11T13:30:07.179924 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.5ms)
+I, [2014-09-11T13:30:07.181897 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.9ms)
+I, [2014-09-11T13:30:07.182661 #12690]  INFO -- : Completed 200 OK in 341ms (Views: 338.0ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:30:08.216177 #12690]  INFO -- : Started GET "/signin" for 127.0.0.1 at 2014-09-11 13:30:08 +0100
+I, [2014-09-11T13:30:08.218816 #12690]  INFO -- : Processing by SessionsController#new as HTML
+I, [2014-09-11T13:30:08.226485 #12690]  INFO -- :   Rendered sessions/new.html.erb within layouts/application (4.2ms)
+I, [2014-09-11T13:30:08.228024 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:30:08.228181 #12690]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-09-11T13:30:08.230315 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (1.9ms)
+I, [2014-09-11T13:30:08.230812 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:30:08.231240 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:30:08.231876 #12690]  INFO -- : Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:30:09.524260 #12690]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:30:09 +0100
+I, [2014-09-11T13:30:09.527150 #12690]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:30:09.532165 #12690]  INFO -- :   Rendered main/home.html.erb within layouts/application (1.2ms)
+I, [2014-09-11T13:30:09.533519 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:30:09.533667 #12690]  INFO -- :   Rendered layouts/_header.html.erb (1.1ms)
+I, [2014-09-11T13:30:09.535717 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (1.8ms)
+I, [2014-09-11T13:30:09.536145 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:30:09.536585 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:30:09.537211 #12690]  INFO -- : Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T13:30:10.977654 #12690]  INFO -- : Started GET "/contact" for 127.0.0.1 at 2014-09-11 13:30:10 +0100
+I, [2014-09-11T13:30:10.980109 #12690]  INFO -- : Processing by ContactsController#new as HTML
+I, [2014-09-11T13:30:10.991187 #12690]  INFO -- :   Rendered contacts/new.html.erb within layouts/application (9.5ms)
+I, [2014-09-11T13:30:10.992356 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:30:10.992517 #12690]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2014-09-11T13:30:10.994191 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (1.5ms)
+I, [2014-09-11T13:30:10.994589 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:30:10.995016 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:30:10.995586 #12690]  INFO -- : Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T13:30:11.810323 #12690]  INFO -- : Started GET "/signin" for 127.0.0.1 at 2014-09-11 13:30:11 +0100
+I, [2014-09-11T13:30:11.814240 #12690]  INFO -- : Processing by SessionsController#new as HTML
+I, [2014-09-11T13:30:11.817510 #12690]  INFO -- :   Rendered sessions/new.html.erb within layouts/application (1.8ms)
+I, [2014-09-11T13:30:11.818635 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:30:11.818779 #12690]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2014-09-11T13:30:11.820358 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (1.4ms)
+I, [2014-09-11T13:30:11.820770 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:30:11.821187 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:30:11.821753 #12690]  INFO -- : Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T13:30:12.225934 #12690]  INFO -- : Started GET "/signin" for 127.0.0.1 at 2014-09-11 13:30:12 +0100
+I, [2014-09-11T13:30:12.229309 #12690]  INFO -- : Processing by SessionsController#new as HTML
+I, [2014-09-11T13:30:12.234278 #12690]  INFO -- :   Rendered sessions/new.html.erb within layouts/application (2.9ms)
+I, [2014-09-11T13:30:12.236322 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:30:12.236592 #12690]  INFO -- :   Rendered layouts/_header.html.erb (1.7ms)
+I, [2014-09-11T13:30:12.239177 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (2.2ms)
+I, [2014-09-11T13:30:12.239672 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:30:12.240481 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2014-09-11T13:30:12.241027 #12690]  INFO -- : Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.3ms)
+I, [2014-09-11T13:30:21.610926 #12690]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:30:21 +0100
+I, [2014-09-11T13:30:21.612153 #12690]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:30:21.613850 #12690]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2014-09-11T13:30:21.614958 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:30:21.615099 #12690]  INFO -- :   Rendered layouts/_header.html.erb (0.9ms)
+I, [2014-09-11T13:30:21.616727 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (1.4ms)
+I, [2014-09-11T13:30:21.617095 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:30:21.617523 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:30:21.618040 #12690]  INFO -- : Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T13:30:23.545765 #12690]  INFO -- : Started GET "/signup" for 127.0.0.1 at 2014-09-11 13:30:23 +0100
+I, [2014-09-11T13:30:23.550157 #12690]  INFO -- : Processing by UsersController#new as HTML
+I, [2014-09-11T13:30:23.573240 #12690]  INFO -- :   Rendered shared/_error_messages.html.erb (0.8ms)
+I, [2014-09-11T13:30:23.576801 #12690]  INFO -- :   Rendered users/new.html.erb within layouts/application (19.0ms)
+I, [2014-09-11T13:30:23.578014 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:30:23.578163 #12690]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T13:30:23.580325 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (1.9ms)
+I, [2014-09-11T13:30:23.580748 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:30:23.581184 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:30:23.581833 #12690]  INFO -- : Completed 200 OK in 31ms (Views: 26.7ms | ActiveRecord: 0.6ms)
+I, [2014-09-11T13:30:25.375989 #12690]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:30:25 +0100
+I, [2014-09-11T13:30:25.377903 #12690]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T13:30:25.380209 #12690]  INFO -- :   Rendered main/home.html.erb within layouts/application (0.6ms)
+I, [2014-09-11T13:30:25.381456 #12690]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-09-11T13:30:25.381601 #12690]  INFO -- :   Rendered layouts/_header.html.erb (1.0ms)
+I, [2014-09-11T13:30:25.383229 #12690]  INFO -- :   Rendered layouts/_navigation.html.erb (1.4ms)
+I, [2014-09-11T13:30:25.383623 #12690]  INFO -- :   Rendered layouts/_social.html.erb (0.1ms)
+I, [2014-09-11T13:30:25.384077 #12690]  INFO -- :   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2014-09-11T13:30:25.384675 #12690]  INFO -- : Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.2ms)
+I, [2014-09-11T13:32:10.750895 #12690]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 13:32:10 +0100
+I, [2014-09-11T13:32:10.752953 #12690]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11TI, [2014-09-11T14:34:58.100923 #3220]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-09-11 14:34:58 +0100
+I, [2014-09-11T14:34:58.188269 #3220]  INFO -- : Processing by MainController#home as HTML
+I, [2014-09-11T14:34:58.255070 #3220]  INFO -- :   Rendered main/home.html.erb within layouts/application (2.3ms)
+I, [2014-09-11T14:34:58.276683 #3220]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-09-11T14:34:58.276901 #3220]  INFO -- :   Rendered layouts/_header.html.erb (9.3ms)
+I, [2014-09-11T14:34:58.300755 #3220]  INFO -- :   Rendered layouts/_navigation.html.erb (16.1ms)
+I, [2014-09-11T14:34:58.334465 #3220]  INFO -- :   Rendered layouts/_social.html.erb (0.8ms)
+I, [2014-09-11T14:34:58.348426 #3220]  INFO -- :   Rendered layouts/_footer.html.erb (1.1ms)
+I, [2014-09-11T14:34:58.349360 #3220]  INFO -- : Completed 200 OK in 161ms (Views: 121.6ms | ActiveRecord: 8.7ms)
+I, [2014-09-11T14:34:58.372441 #3220]  INFO -- : Started GET "/assets/sticky-footer.css" for 127.0.0.1 at 2014-09-11 14:34:58 +0100
+I, [2014-09-11T14:34:58.426460 #3228]  INFO -- : Started GET "/assets/custom.css" for 127.0.0.1 at 2014-09-11 14:34:58 +0100
+W, [2014-09-11T14:34:58.746992 #3228]  WARN -- : WARNING on line 542 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+W, [2014-09-11T14:34:58.747215 #3228]  WARN -- : WARNING on line 543 of /home/alex/rails/trackmymixes/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+I, [2014-09-11T14:34:59.170519 #3228]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.1.0" for 127.0.0.1 at 2014-09-11 14:34:59 +0100
